@@ -4753,10 +4753,10 @@ function PlasmicOffer2__RenderFunc(props: {
                   className={classNames(sty.img__bfVoB)}
                   displayHeight={"auto" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
+                  displayMaxWidth={"275px" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"247px" as const}
+                  displayWidth={"100%" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/paymentlogoavif.avif",
