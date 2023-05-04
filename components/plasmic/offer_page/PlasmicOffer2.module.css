@@ -129,7 +129,7 @@
     #ffffff;
   align-self: center;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__fD7Ia {
