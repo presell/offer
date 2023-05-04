@@ -3700,6 +3700,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: #ffffff;
   min-width: 0;
   display: none;
   padding: 0px 0px 39px;
@@ -4292,9 +4293,10 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
+  background: #ffffff;
   min-width: 0;
-  padding: 8px 10px;
+  padding: 50px 10px 8px;
 }
 .text__gWQhP {
   position: relative;
@@ -4349,6 +4351,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: #ffffff;
   min-width: 0;
   padding: 8px 8px 40px;
 }
@@ -5194,6 +5197,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: #ffffff;
   min-width: 0;
   padding: 30px 8px 8px;
 }
@@ -5266,9 +5270,10 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin-bottom: 136px;
+  margin-bottom: 0px;
+  background: #ffffff;
   min-width: 0;
-  padding: 8px;
+  padding: 8px 8px 94px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__buk54 {
@@ -5441,8 +5446,8 @@
   position: absolute;
   object-fit: cover;
   max-width: 100%;
-  left: 144px;
-  top: 4px;
+  left: 143px;
+  top: 9px;
   width: 100px;
   border-radius: 50%;
 }
@@ -5734,6 +5739,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: #ffffff;
   min-width: 0;
   padding: 65px 8px 52px;
   margin: 0px;
