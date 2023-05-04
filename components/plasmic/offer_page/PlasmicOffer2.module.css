@@ -18,7 +18,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: none;
+  background: #ffffff;
   min-width: 0;
   padding: 0px 0px 50px;
 }
@@ -125,7 +125,9 @@
   position: relative;
   width: auto;
   height: auto;
-  background: url("/plasmic/offer_page/images/div4.png") 0px 0px / 1440px 723px no-repeat;
+  background: url("/plasmic/offer_page/images/div4.png") 0px 0px / 1440px 723px no-repeat,
+    #ffffff;
+  align-self: center;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__fD7Ia {
@@ -784,6 +786,7 @@
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 8px;
+  background: #ffffff;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -803,7 +806,8 @@
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 0px;
+  padding-top: 30px;
   min-width: 0;
 }
 .text__d9Cop {
@@ -816,6 +820,7 @@
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
   line-height: 50px;
+  background: #ffffff;
   min-width: 0;
 }
 .freeBox__mH0C {
@@ -827,6 +832,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: #ffffff;
   min-width: 0;
   padding: 8px;
 }
