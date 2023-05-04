@@ -1759,7 +1759,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"auto" as const}
+                      displayWidth={"100%" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/promissory700Cba5AB8264B5C8106987450146E3Bwebp.webp",

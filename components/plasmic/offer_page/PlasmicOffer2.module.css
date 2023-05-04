@@ -1376,7 +1376,7 @@
   margin-top: 0px;
   background: #eeeee4;
   min-width: 0;
-  padding: 0px 8px;
+  padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__xu4ZV {
@@ -1393,13 +1393,15 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 0px 8px;
+  padding: 0px;
 }
 .img__dlsdZ {
   position: relative;
   object-fit: cover;
   max-width: 100%;
   height: 756px;
+  width: 100%;
+  min-width: 0;
   flex-shrink: 0;
 }
 .img__dlsdZ > picture > img {
@@ -2235,7 +2237,7 @@
   object-fit: cover;
   max-width: none;
   width: auto;
-  left: 405px;
+  left: auto;
   top: -90px;
   margin-bottom: 0px;
   height: 181px;
