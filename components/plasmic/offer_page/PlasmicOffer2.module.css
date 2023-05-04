@@ -1773,7 +1773,7 @@
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
   height: auto;
@@ -1789,17 +1789,17 @@
   object-fit: cover;
   position: relative;
   height: 425px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   min-width: 0;
-  margin: 25px 0px 0px;
+  margin: 0px;
 }
 .freeBox__eDvuk {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: stretch;
+  justify-content: center;
   width: 100%;
   height: 341px;
   max-width: none;
@@ -1926,7 +1926,7 @@
 .freeBox___56PZe {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   width: 100%;
   height: 341px;
@@ -2059,8 +2059,8 @@
 .freeBox__zaNyh {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: stretch;
+  justify-content: center;
   width: 100%;
   height: 341px;
   max-width: none;
@@ -2196,7 +2196,7 @@
   max-width: 100%;
   background: #eeeee4;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__dq5Tc {
@@ -2360,7 +2360,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 8px 8px 0px;
 }
 .img__azxbD {
   position: relative;
