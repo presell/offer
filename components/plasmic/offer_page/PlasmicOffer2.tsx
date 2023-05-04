@@ -2065,7 +2065,6 @@ function PlasmicOffer2__RenderFunc(props: {
                       )}
                       dots={false}
                       variableWidth={false}
-                      vertical={false}
                     >
                       <div
                         className={classNames(
