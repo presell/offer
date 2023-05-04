@@ -123,10 +123,9 @@
 .freeBox__fD7Ia {
   display: flex;
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
   background: url("/plasmic/offer_page/images/div4.png") 0px 0px / 1440px 723px no-repeat;
-  min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__fD7Ia {
