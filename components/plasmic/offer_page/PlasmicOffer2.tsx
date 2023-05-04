@@ -2076,12 +2076,12 @@ function PlasmicOffer2__RenderFunc(props: {
                         <p.PlasmicImg
                           alt={""}
                           className={classNames(sty.img__g5BbP)}
-                          displayHeight={"100px" as const}
+                          displayHeight={"auto" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"none" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"100px" as const}
+                          displayWidth={"auto" as const}
                           loading={"lazy" as const}
                           src={{
                             src: "/plasmic/offer_page/images/sidereview2Avif.avif",
