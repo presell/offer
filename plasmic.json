@@ -1920,6 +1920,31 @@
           "id": "dxs7UWB8KUrx-L",
           "name": "getyourvitamin1.avif",
           "filePath": "../public/plasmic/offer_page/images/getyourvitamin1Avif.avif"
+        },
+        {
+          "id": "KYFF0dwwE",
+          "name": "My_project.webp",
+          "filePath": "../public/plasmic/offer_page/images/myProjectwebp.webp"
+        },
+        {
+          "id": "tobWfnl4x",
+          "name": "My_project-2.webp",
+          "filePath": "../public/plasmic/offer_page/images/myProject2Webp.webp"
+        },
+        {
+          "id": "jRj2PZZVL",
+          "name": "freeship.png 2",
+          "filePath": "../public/plasmic/offer_page/images/freeshippng2.png"
+        },
+        {
+          "id": "0gwBE1Lte",
+          "name": "sidereview1.webp",
+          "filePath": "../public/plasmic/offer_page/images/sidereview1Webp.webp"
+        },
+        {
+          "id": "XUGtOIIu5",
+          "name": "sidereview3.webp",
+          "filePath": "../public/plasmic/offer_page/images/sidereview3Webp.webp"
         }
       ],
       "indirect": false,
@@ -1958,6 +1983,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.273",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.273/dist/plasmic.schema.json"
+  "cliVersion": "0.1.274",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.274/dist/plasmic.schema.json"
 }

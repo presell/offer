@@ -39,7 +39,6 @@ import {
 import Slider from "react-slick"; // plasmic-import: HOQUyOpClJ/codeComponent
 import { Collapse } from "@plasmicpkgs/antd/skinny/registerCollapse"; // plasmic-import: F10gpQ1ZhXY/codeComponent
 import CollapsePanel from "antd/lib/collapse/CollapsePanel"; // plasmic-import: yegZ392NLoV/codeComponent
-import { AntdRadio } from "@plasmicpkgs/antd5/skinny/registerRadio"; // plasmic-import: -CXVV9tXtP/codeComponent
 
 import { useScreenVariants as useScreenVariantsl1Qe8SYTbZxm7D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: L1Qe8sYTbZxm7D/globalVariant
 
@@ -555,7 +554,7 @@ function PlasmicOffer2__RenderFunc(props: {
                         displayMaxWidth={"100%" as const}
                         displayMinHeight={"0" as const}
                         displayMinWidth={"0" as const}
-                        displayWidth={"244px" as const}
+                        displayWidth={"215px" as const}
                         loading={"lazy" as const}
                         src={{
                           src: "/plasmic/offer_page/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Webp.webp",
@@ -611,12 +610,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__njlCj)}
-                            displayHeight={"auto" as const}
+                            displayHeight={"28px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
+                            displayMaxWidth={"33px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"33px" as const}
+                            displayWidth={"30px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -660,12 +659,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__mmys6)}
-                            displayHeight={"auto" as const}
+                            displayHeight={"28px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
+                            displayMaxWidth={"33px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"33px" as const}
+                            displayWidth={"30px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -707,12 +706,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__cbIi8)}
-                            displayHeight={"auto" as const}
+                            displayHeight={"28px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
+                            displayMaxWidth={"33px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"33px" as const}
+                            displayWidth={"30px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -753,12 +752,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__tdeOy)}
-                            displayHeight={"auto" as const}
+                            displayHeight={"28px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
+                            displayMaxWidth={"33px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"33px" as const}
+                            displayWidth={"30px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -833,7 +832,7 @@ function PlasmicOffer2__RenderFunc(props: {
                             <p.PlasmicImg
                               alt={""}
                               className={classNames(sty.img___4RWkQ)}
-                              displayHeight={"9px" as const}
+                              displayHeight={"10px" as const}
                               displayMaxHeight={"none" as const}
                               displayMaxWidth={"100%" as const}
                               displayMinHeight={"0" as const}
@@ -855,7 +854,20 @@ function PlasmicOffer2__RenderFunc(props: {
                                 sty.text__itic
                               )}
                             >
-                              {"4.8/5 based on 1000+ Reviews"}
+                              <React.Fragment>
+                                <React.Fragment>
+                                  {"4.8/5 based on "}
+                                </React.Fragment>
+                                <span
+                                  className={
+                                    "plasmic_default__all plasmic_default__span"
+                                  }
+                                  style={{ fontWeight: 700 }}
+                                >
+                                  {"1000+ "}
+                                </span>
+                                <React.Fragment>{"Reviews"}</React.Fragment>
+                              </React.Fragment>
                             </div>
                           </div>
                           <button
@@ -873,10 +885,10 @@ function PlasmicOffer2__RenderFunc(props: {
                             className={classNames(sty.img__lcp59)}
                             displayHeight={"auto" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
+                            displayMaxWidth={"none" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"auto" as const}
+                            displayWidth={"100%" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/paymentlogoavif.avif",
@@ -1373,7 +1385,18 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.text__shvPg
                         )}
                       >
-                        {"4.8/5 based on 1000+ Reviews"}
+                        <React.Fragment>
+                          <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ fontWeight: 700 }}
+                          >
+                            {"1000+"}
+                          </span>
+                          <React.Fragment>{" Reviews"}</React.Fragment>
+                        </React.Fragment>
                       </div>
                     </div>
                     <button
@@ -1394,7 +1417,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"266px" as const}
+                      displayWidth={"280px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/paymentlogoavif.avif",
@@ -1447,9 +1470,18 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text___5BCCg
                     )}
                   >
-                    {
-                      "Vitamin Air’s Carefully Designed Formula\nHelps You Quit For Good."
-                    }
+                    <React.Fragment>
+                      <React.Fragment>{"Vitamin Air’s "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"Carefully Designed Formula"}
+                      </span>
+                      <React.Fragment>
+                        {"\nHelps You Quit For Good."}
+                      </React.Fragment>
+                    </React.Fragment>
                   </div>
                   <div
                     className={classNames(projectcss.all, sty.freeBox__b2EZo)}
@@ -1462,10 +1494,10 @@ function PlasmicOffer2__RenderFunc(props: {
                         className={classNames(sty.img__iaq9Q)}
                         displayHeight={"120px" as const}
                         displayMaxHeight={"none" as const}
-                        displayMaxWidth={"none" as const}
+                        displayMaxWidth={"100%" as const}
                         displayMinHeight={"0" as const}
                         displayMinWidth={"0" as const}
-                        displayWidth={"156px" as const}
+                        displayWidth={"150px" as const}
                         loading={"lazy" as const}
                         src={{
                           src: "/plasmic/offer_page/images/myProjectavif.avif",
@@ -1788,7 +1820,17 @@ function PlasmicOffer2__RenderFunc(props: {
                         sty.text__xdLiu
                       )}
                     >
-                      {"Formulated With\nZero Nic"}
+                      <React.Fragment>
+                        <React.Fragment>{"Formulated With\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Zero Nic"}
+                        </span>
+                      </React.Fragment>
                     </div>
                     <div
                       className={classNames(projectcss.all, sty.freeBox__ePKs)}
@@ -1965,7 +2007,18 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.text__djI7B
                         )}
                       >
-                        {"4.8/5 based on 1000+ Reviews"}
+                        <React.Fragment>
+                          <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ fontWeight: 700 }}
+                          >
+                            {"1000+"}
+                          </span>
+                          <React.Fragment>{" Reviews"}</React.Fragment>
+                        </React.Fragment>
                       </div>
                     </div>
                     <button
@@ -2048,256 +2101,130 @@ function PlasmicOffer2__RenderFunc(props: {
                         sty.text__s1ONh
                       )}
                     >
-                      {"4.8/5 based on 1000+ Reviews"}
+                      <React.Fragment>
+                        <React.Fragment>{"4.8/5 based on"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {" 1000+ "}
+                        </span>
+                        <React.Fragment>{"Reviews"}</React.Fragment>
+                      </React.Fragment>
                     </div>
                   </div>
                   <div
                     className={classNames(projectcss.all, sty.freeBox__paNa)}
                   >
-                    <Slider
-                      adaptiveHeight={false}
-                      arrows={true}
-                      centerMode={true}
-                      centerPadding={"470px" as const}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.slider__twOQt
-                      )}
-                      dots={false}
-                      variableWidth={false}
+                    {true ? (
+                      <Slider
+                        adaptiveHeight={false}
+                        arrows={true}
+                        centerMode={true}
+                        centerPadding={"470px" as const}
+                        children={null}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.slider__twOQt
+                        )}
+                        dots={false}
+                        variableWidth={false}
+                      />
+                    ) : null}
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__pA4B)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__aFn9L)}
                     >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___9SW6G)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/sidereview1Webp.webp",
+                          fullWidth: 119,
+                          fullHeight: 119,
+                          aspectRatio: undefined
+                        }}
+                      />
+
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__eDvuk
+                          projectcss.__wab_text,
+                          sty.text__qFkbX
                         )}
                       >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__g5BbP)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"none" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/sidereview2Avif.avif",
-                            fullWidth: 119,
-                            fullHeight: 119,
-                            aspectRatio: undefined
-                          }}
-                        />
+                        {"Best alternative to smoking"}
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__jBc6)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/_4E8Df8335StarReviews103N00Q000000000000028Png.png",
+                          fullWidth: 131,
+                          fullHeight: 26,
+                          aspectRatio: undefined
+                        }}
+                      />
 
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__yggLb
-                          )}
-                        >
-                          {"Love! LOVE!!"}
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__dxEg4)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"80px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/starpng.png",
-                            fullWidth: 142,
-                            fullHeight: 21,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___2VKq0
-                          )}
-                        >
-                          {
-                            '"I smokd for over 29 years...Now not only have I quit but I\'m doing something healthy..."'
-                          }
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__iHbLn
-                          )}
-                        >
-                          {"Isaiah S."}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__ipMeT
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__ldg6Z)}
-                            displayHeight={"auto" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"25px" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"37px" as const}
-                            loading={"lazy" as const}
-                            src={{
-                              src: "/plasmic/offer_page/images/verifypng.png",
-                              fullWidth: 32,
-                              fullHeight: 31,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__v05Wp
-                            )}
-                          >
-                            {"Verified Buyer"}
-                          </div>
-                        </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__feJsy
+                        )}
+                      >
+                        {
+                          '"I smokd for over 29 years...Now not only have I quit but I\'m doing something healthy..."\n'
+                        }
                       </div>
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox___56PZe
+                          projectcss.__wab_text,
+                          sty.text__q9F41
                         )}
                       >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__ko4R)}
-                          displayHeight={"100px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"none" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"100px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/image566Aef92F0Bf4B3F897576E7Bc829143Webp.webp",
-                            fullWidth: 1024,
-                            fullHeight: 1024,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__cyM6M
-                          )}
-                        >
-                          {"Best alternative to smoking"}
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__qtfrd)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"80px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/starpng3.png",
-                            fullWidth: 1726,
-                            fullHeight: 312,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__wxHEt
-                          )}
-                        >
-                          {
-                            '"I smokd for over 29 years...Now not only have I quit but I\'m doing something healthy..."'
-                          }
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__y2OxC
-                          )}
-                        >
-                          {"Rostyslav M."}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__dqm8V
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__nbxQp)}
-                            displayHeight={"auto" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"25px" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"37px" as const}
-                            loading={"lazy" as const}
-                            src={{
-                              src: "/plasmic/offer_page/images/verifypng.png",
-                              fullWidth: 32,
-                              fullHeight: 31,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__d3TIj
-                            )}
-                          >
-                            {"Verified Buyer"}
-                          </div>
-                        </div>
+                        {"Isaiah S."}
                       </div>
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__zaNyh
+                          sty.freeBox__mzHjJ
                         )}
                       >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__yIdje)}
-                          displayHeight={"auto" as const}
+                          className={classNames(sty.img__m2DJ5)}
+                          displayHeight={"18px" as const}
                           displayMaxHeight={"none" as const}
-                          displayMaxWidth={"none" as const}
+                          displayMaxWidth={"18px" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
+                          displayWidth={"18px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/offer_page/images/sidereview3Avif.avif",
-                            fullWidth: 119,
-                            fullHeight: 119,
+                            src: "/plasmic/offer_page/images/verifypng.png",
+                            fullWidth: 32,
+                            fullHeight: 31,
                             aspectRatio: undefined
                           }}
                         />
@@ -2306,85 +2233,222 @@ function PlasmicOffer2__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__bvVol
+                            sty.text__hvl9W
                           )}
                         >
-                          {"Awesome"}
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__bLcrl)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"80px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/starpng3.png",
-                            fullWidth: 1726,
-                            fullHeight: 312,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__cBjl
-                          )}
-                        >
-                          {
-                            '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
-                          }
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___9K6Cj
-                          )}
-                        >
-                          {"Jason G."}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__qfcP
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__lNuSz)}
-                            displayHeight={"auto" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"25px" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"37px" as const}
-                            loading={"lazy" as const}
-                            src={{
-                              src: "/plasmic/offer_page/images/verifypng.png",
-                              fullWidth: 32,
-                              fullHeight: 31,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__j2Rz
-                            )}
-                          >
-                            {"Verified Buyer"}
-                          </div>
+                          {" Verified Buyer"}
                         </div>
                       </div>
-                    </Slider>
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___2VqGl
+                      )}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__aHmRg)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/sidereview3Webp.webp",
+                          fullWidth: 119,
+                          fullHeight: 119,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___0SSEz
+                        )}
+                      >
+                        {"Awesome"}
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__isCm9)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/_4E8Df8335StarReviews107A01G000000000000028Png.png",
+                          fullWidth: 262,
+                          fullHeight: 52,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__mdHL
+                        )}
+                      >
+                        {
+                          '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
+                        }
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dnpF6
+                        )}
+                      >
+                        {"Jason G."}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__egTx3
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__pRvYm)}
+                          displayHeight={"18px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"18px" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"18px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/verifypng.png",
+                            fullWidth: 32,
+                            fullHeight: 31,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__sjqi9
+                          )}
+                        >
+                          {" Verified Buyer"}
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__qKPiX)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__jNvOx)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/sidereview3Webp.webp",
+                          fullWidth: 119,
+                          fullHeight: 119,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__k3UiB
+                        )}
+                      >
+                        {"Love! LOVE!!"}
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__p2FvT)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/_4E8Df8335StarReviews107A01G000000000000028Png.png",
+                          fullWidth: 262,
+                          fullHeight: 52,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ahejV
+                        )}
+                      >
+                        {
+                          "“Im literally obsessed the the elegant\ndesign as well as the jaw dropping\npackaging.”"
+                        }
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___54EsP
+                        )}
+                      >
+                        {"Kathy B"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__xI0Iu
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__xQNvk)}
+                          displayHeight={"18px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"18px" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"18px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/verifypng.png",
+                            fullWidth: 32,
+                            fullHeight: 31,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__v511X
+                          )}
+                        >
+                          {" Verified Buyer"}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ) : null}
@@ -2509,7 +2573,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       className={classNames(sty.img__kTAt8)}
                       displayHeight={"auto" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
+                      displayMaxWidth={"221px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
                       displayWidth={"auto" as const}
@@ -2878,24 +2942,6 @@ function PlasmicOffer2__RenderFunc(props: {
                     <div
                       className={classNames(projectcss.all, sty.freeBox__hOewb)}
                     >
-                      <AntdRadio
-                        className={classNames(
-                          "__wab_instance",
-                          sty.radio__dx0Io
-                        )}
-                      >
-                        {true ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__pfKxh
-                            )}
-                          >
-                            {"Radio"}
-                          </div>
-                        ) : null}
-                      </AntdRadio>
                       <div
                         className={classNames(
                           projectcss.all,
@@ -2909,24 +2955,6 @@ function PlasmicOffer2__RenderFunc(props: {
                     <div
                       className={classNames(projectcss.all, sty.freeBox__zW9F8)}
                     >
-                      <AntdRadio
-                        className={classNames(
-                          "__wab_instance",
-                          sty.radio__nxEe8
-                        )}
-                      >
-                        {true ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__yAcCn
-                            )}
-                          >
-                            {"Radio"}
-                          </div>
-                        ) : null}
-                      </AntdRadio>
                       <div
                         className={classNames(
                           projectcss.all,
@@ -3072,10 +3100,10 @@ function PlasmicOffer2__RenderFunc(props: {
                     className={classNames(sty.img__j3S6)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
+                    displayMaxWidth={"250px" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"313px" as const}
+                    displayWidth={"100%" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -3091,12 +3119,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__qkxr)}
-                      displayHeight={"auto" as const}
+                      displayHeight={"14px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
+                      displayMaxWidth={"27px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"53px" as const}
+                      displayWidth={"27px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/freeshipavif.avif",
@@ -3338,10 +3366,10 @@ function PlasmicOffer2__RenderFunc(props: {
                     className={classNames(sty.img__crNuF)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
+                    displayMaxWidth={"250px" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"313px" as const}
+                    displayWidth={"100%" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -3357,12 +3385,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img___1Kh1J)}
-                      displayHeight={"auto" as const}
+                      displayHeight={"14px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
+                      displayMaxWidth={"27px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"53px" as const}
+                      displayWidth={"27px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/freeshipavif.avif",
@@ -3522,10 +3550,10 @@ function PlasmicOffer2__RenderFunc(props: {
                     className={classNames(sty.img___3H4Vb)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
+                    displayMaxWidth={"250px" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"313px" as const}
+                    displayWidth={"100%" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -3549,9 +3577,19 @@ function PlasmicOffer2__RenderFunc(props: {
                   sty.text__bgeMy
                 )}
               >
-                {
-                  "SPECIAL OFFER: Claim this one-time offer. Try Vitamin Air at a fraction of the regular price today."
-                }
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {"SPECIAL OFFER"}
+                  </span>
+                  <React.Fragment>
+                    {
+                      ": Claim this one-time offer. Try Vitamin Air at a fraction of the regular price today."
+                    }
+                  </React.Fragment>
+                </React.Fragment>
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__aNcn6)}>
                 <button
@@ -3594,7 +3632,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   displayMaxWidth={"100%" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"209px" as const}
+                  displayWidth={"130px" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Webp.webp",
@@ -3628,12 +3666,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__iXbDc)}
-                    displayHeight={"15px" as const}
+                    displayHeight={"13px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"20px" as const}
+                    displayWidth={"13px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/li3.png",
@@ -3666,12 +3704,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__u253V)}
-                    displayHeight={"15px" as const}
+                    displayHeight={"13px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"20px" as const}
+                    displayWidth={"13px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/li3.png",
@@ -3706,12 +3744,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__paKu)}
-                    displayHeight={"15px" as const}
+                    displayHeight={"13px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"20px" as const}
+                    displayWidth={"13px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/li3.png",
@@ -3735,12 +3773,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__yzoAt)}
-                    displayHeight={"15px" as const}
+                    displayHeight={"13px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"20px" as const}
+                    displayWidth={"13px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/li3.png",
@@ -3782,7 +3820,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   <React.Fragment>
                     <React.Fragment>
                       {
-                        "Vitamin Air is jam-packed with natural vitamins, amino acids and healing\nherbs to help you quit nic "
+                        "Vitamin Air is jam-packed with natural vitamins amino acids and healing herbs to help you quit nic "
                       }
                     </React.Fragment>
                     <span
@@ -3795,12 +3833,35 @@ function PlasmicOffer2__RenderFunc(props: {
                   </React.Fragment>
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__tkoba)}>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__fFbGg)}
+                      displayHeight={"15px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"none" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"80px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/offer_page/images/starpng3.png",
+                        fullWidth: 1726,
+                        fullHeight: 312,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  ) : null}
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__fFbGg)}
-                    displayHeight={"15px" as const}
+                    className={classNames(sty.img__ruvYv)}
+                    displayHeight={"12px" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"none" as const}
+                    displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
                     displayWidth={"80px" as const}
@@ -3820,7 +3881,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text___2Vtn
                     )}
                   >
-                    {"4.8/5 based on 1000+ Reviews"}
+                    <React.Fragment>
+                      <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"1000+"}
+                      </span>
+                      <React.Fragment>{" Reviews"}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
                 <button
@@ -3838,10 +3908,10 @@ function PlasmicOffer2__RenderFunc(props: {
                   className={classNames(sty.img__t6U5G)}
                   displayHeight={"21px" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"none" as const}
+                  displayMaxWidth={"221px" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"221px" as const}
+                  displayWidth={"auto" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/paymentlogoavif.avif",
@@ -4000,7 +4070,15 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__fu6Lh
                   )}
                 >
-                  {"Use Vitamin Air\nIn Three Easy Steps..."}
+                  <React.Fragment>
+                    <React.Fragment>{"Use Vitamin Air\nIn "}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Three Easy Steps..."}
+                    </span>
+                  </React.Fragment>
                 </div>
               </div>
               <p.PlasmicImg
@@ -4039,7 +4117,23 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__jszsM
                     )}
                   >
-                    {"Place the Vitamin Air device against your lips."}
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"Place "}
+                      </span>
+                      <React.Fragment>
+                        {"the Vitamin Air device "}
+                      </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"against your lips."}
+                      </span>
+                    </React.Fragment>
                   </div>
                 </div>
                 <div
@@ -4061,7 +4155,24 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__o9CcM
                     )}
                   >
-                    {"Inhale your delicious strawberry or vanilla flavor."}
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"Inhale "}
+                      </span>
+                      <React.Fragment>{"your "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"delicious "}
+                      </span>
+                      <React.Fragment>
+                        {"strawberry or vanilla flavor."}
+                      </React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__mcHl)}>
@@ -4081,7 +4192,24 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__zweVw
                     )}
                   >
-                    {"Exhale and watch the urge to smoke slowly drift away."}
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"Exhale"}
+                      </span>
+                      <React.Fragment>
+                        {" and watch the urge to smoke slowly "}
+                      </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"drift away"}
+                      </span>
+                      <React.Fragment>{"."}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
               </div>
@@ -4102,7 +4230,17 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__sqhka
                   )}
                 >
-                  {"Replace Nic With\nLife-enhancing Vitamins."}
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Replace Nic"}
+                    </span>
+                    <React.Fragment>
+                      {" With\nLife-enhancing Vitamins."}
+                    </React.Fragment>
+                  </React.Fragment>
                 </div>
                 <div
                   className={classNames(
@@ -4146,12 +4284,35 @@ function PlasmicOffer2__RenderFunc(props: {
                   }
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__ldEu3)}>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__fcsy5)}
+                      displayHeight={"15px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"none" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"80px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/offer_page/images/starpng3.png",
+                        fullWidth: 1726,
+                        fullHeight: 312,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  ) : null}
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__fcsy5)}
-                    displayHeight={"15px" as const}
+                    className={classNames(sty.img__idmSw)}
+                    displayHeight={"12px" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"none" as const}
+                    displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
                     displayWidth={"80px" as const}
@@ -4171,7 +4332,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__roy18
                     )}
                   >
-                    {"4.8/5 based on 1000+ Reviews"}
+                    <React.Fragment>
+                      <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"1000+"}
+                      </span>
+                      <React.Fragment>{" Reviews"}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
                 <button
@@ -4189,10 +4359,10 @@ function PlasmicOffer2__RenderFunc(props: {
                   className={classNames(sty.img__xhTee)}
                   displayHeight={"auto" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
+                  displayMaxWidth={"220px" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"262px" as const}
+                  displayWidth={"100%" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/paymentlogoavif.avif",
@@ -4219,26 +4389,58 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__p6WtH
                   )}
                 >
-                  {
-                    "Vitamin Air’s Carefully Designed Formula\nHelps You Quit For Good."
-                  }
+                  <React.Fragment>
+                    <React.Fragment>{"Vitamin Air’s "}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Carefully Designed Formula"}
+                    </span>
+                    <React.Fragment>
+                      {"\nHelps You Quit For Good."}
+                    </React.Fragment>
+                  </React.Fragment>
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__rwcTo)}>
                   <div
                     className={classNames(projectcss.all, sty.freeBox__otd4G)}
                   >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__kk4Ao)}
+                        displayHeight={"95px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"112px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/myProjectavif.avif",
+                          fullWidth: 252,
+                          fullHeight: 195,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    ) : null}
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__kk4Ao)}
-                      displayHeight={"120px" as const}
+                      className={classNames(sty.img__kujbm)}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
-                        src: "/plasmic/offer_page/images/myProjectavif.avif",
+                        src: "/plasmic/offer_page/images/myProjectwebp.webp",
                         fullWidth: 252,
                         fullHeight: 195,
                         aspectRatio: undefined
@@ -4254,6 +4456,18 @@ function PlasmicOffer2__RenderFunc(props: {
                     >
                       {"BETA-ALANINE"}
                     </div>
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ciNr0
+                        )}
+                      />
+                    ) : null}
                     <div
                       className={classNames(
                         projectcss.all,
@@ -4284,18 +4498,41 @@ function PlasmicOffer2__RenderFunc(props: {
                         loading={"lazy" as const}
                       />
                     ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__fUKv7)}
+                        displayHeight={"120px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"120px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"145px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/myProject2Avif.avif",
+                          fullWidth: 265,
+                          fullHeight: 174,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    ) : null}
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__fUKv7)}
-                      displayHeight={"120px" as const}
+                      className={classNames(sty.img__esy5B)}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"120px" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
-                        src: "/plasmic/offer_page/images/myProject2Avif.avif",
+                        src: "/plasmic/offer_page/images/myProject2Webp.webp",
                         fullWidth: 265,
                         fullHeight: 174,
                         aspectRatio: undefined
@@ -4329,12 +4566,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__oin5)}
-                      displayHeight={"120px" as const}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"120px" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/myProject5Avif.avif",
@@ -4369,12 +4606,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__ifTc4)}
-                      displayHeight={"120px" as const}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"120px" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/myProject3Avif.avif",
@@ -4411,12 +4648,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img___3JefM)}
-                      displayHeight={"120px" as const}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"120px" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/myProject7Avif.avif",
@@ -4468,12 +4705,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img___4LeW)}
-                      displayHeight={"120px" as const}
+                      displayHeight={"95px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"120px" as const}
+                      displayMaxWidth={"112px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"145px" as const}
+                      displayWidth={"auto" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/myProject6Avif.avif",
@@ -4506,12 +4743,12 @@ function PlasmicOffer2__RenderFunc(props: {
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__biAec)}
-                  displayHeight={"120px" as const}
+                  displayHeight={"95px" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"120px" as const}
+                  displayMaxWidth={"112px" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"145px" as const}
+                  displayWidth={"auto" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/myProject4Avif.avif",
@@ -4557,8 +4794,31 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__nvnB
                   )}
                 >
-                  {"Formulated With\nZero Nic"}
+                  <React.Fragment>
+                    <React.Fragment>{"Formulated With\n"}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Zero Nic"}
+                    </span>
+                  </React.Fragment>
                 </div>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__dorUh
+                    )}
+                  >
+                    {"Z"}
+                  </div>
+                ) : null}
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__wDcM0)}
@@ -4735,7 +4995,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text___0Cnpp
                     )}
                   >
-                    {"4.8/5 based on 1000+ Reviews"}
+                    <React.Fragment>
+                      <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"1000+"}
+                      </span>
+                      <React.Fragment>{" Reviews"}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
                 <button
@@ -4751,9 +5020,9 @@ function PlasmicOffer2__RenderFunc(props: {
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__bfVoB)}
-                  displayHeight={"auto" as const}
+                  displayHeight={"20px" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"275px" as const}
+                  displayMaxWidth={"220px" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
                   displayWidth={"100%" as const}
@@ -4811,7 +5080,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__ca8Ik
                     )}
                   >
-                    {"4.8/5 based on 1000+ Reviews"}
+                    <React.Fragment>
+                      <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"1000+"}
+                      </span>
+                      <React.Fragment>{" Reviews"}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
               </div>
@@ -5154,7 +5432,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__cH682
                     )}
                   >
-                    {"4.8/5 based on 1000+ Reviews"}
+                    <React.Fragment>
+                      <React.Fragment>{"4.8/5 based on "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"1000+"}
+                      </span>
+                      <React.Fragment>{" Reviews"}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </div>
                 <button
@@ -5172,10 +5459,10 @@ function PlasmicOffer2__RenderFunc(props: {
                   className={classNames(sty.img__yvEb3)}
                   displayHeight={"auto" as const}
                   displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
+                  displayMaxWidth={"none" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"272px" as const}
+                  displayWidth={"221px" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/offer_page/images/paymentlogopng.png",
@@ -5600,12 +5887,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img___0ZhH0)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5631,12 +5918,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__qV6XL)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5662,12 +5949,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__uNQs)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5719,10 +6006,10 @@ function PlasmicOffer2__RenderFunc(props: {
                     className={classNames(sty.img___9HyQ)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
+                    displayMaxWidth={"221px" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"222px" as const}
+                    displayWidth={"auto" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -5738,12 +6025,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__fg1Li)}
-                      displayHeight={"auto" as const}
+                      displayHeight={"14px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
+                      displayMaxWidth={"27px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"25%" as const}
+                      displayWidth={"27px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/freeshipavif.avif",
@@ -5863,12 +6150,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img___6Ru9N)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5894,12 +6181,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__qe0I3)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5925,12 +6212,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__l9D5Q)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -5982,10 +6269,10 @@ function PlasmicOffer2__RenderFunc(props: {
                     className={classNames(sty.img__gKWp7)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
+                    displayMaxWidth={"none" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"222px" as const}
+                    displayWidth={"221px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -5998,18 +6285,41 @@ function PlasmicOffer2__RenderFunc(props: {
                   <div
                     className={classNames(projectcss.all, sty.freeBox__zGni)}
                   >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__a6Z6V)}
+                        displayHeight={"14px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"27px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"27px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/freeshipavif.avif",
+                          fullWidth: 55,
+                          fullHeight: 30,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    ) : null}
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__a6Z6V)}
-                      displayHeight={"auto" as const}
+                      className={classNames(sty.img___1Zli4)}
+                      displayHeight={"14px" as const}
                       displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
+                      displayMaxWidth={"27px" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"25%" as const}
+                      displayWidth={"27px" as const}
                       loading={"lazy" as const}
                       src={{
-                        src: "/plasmic/offer_page/images/freeshipavif.avif",
+                        src: "/plasmic/offer_page/images/freeshippng2.png",
                         fullWidth: 55,
                         fullHeight: 30,
                         aspectRatio: undefined
@@ -6109,12 +6419,12 @@ function PlasmicOffer2__RenderFunc(props: {
                     <p.PlasmicImg
                       alt={""}
                       className={classNames(sty.img__bBfuA)}
-                      displayHeight={"15px" as const}
+                      displayHeight={"12px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
                       displayMinHeight={"0" as const}
                       displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
+                      displayWidth={"12px" as const}
                       loading={"lazy" as const}
                       src={{
                         src: "/plasmic/offer_page/images/li3.png",
@@ -6169,7 +6479,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"222px" as const}
+                    displayWidth={"221px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/paymenticonspng.png",
@@ -10131,6 +10441,15 @@ function PlasmicOffer2__RenderFunc(props: {
               </p.Stack>
             </div>
           ) : null}
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__cNqpM
+            )}
+          >
+            {"1920px"}
+          </div>
         </div>
       </div>
     </React.Fragment>
