@@ -3077,8 +3077,8 @@
 }
 .button__m4O7 {
   position: relative;
-  width: 300px;
-  height: 51px;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Alegreya Sans", sans-serif;
@@ -3087,7 +3087,10 @@
   color: #ffffff;
   background: rgba(126, 192, 10, 1);
   text-transform: uppercase;
-  flex-shrink: 0;
+  max-width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 0;
   border-radius: 5px;
 }
 .img__j3S6 {
@@ -3427,8 +3430,8 @@
 }
 .button__vQtoB {
   position: relative;
-  width: 300px;
-  height: 51px;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Alegreya Sans", sans-serif;
@@ -3437,7 +3440,10 @@
   color: #ffffff;
   text-transform: uppercase;
   background: rgba(126, 192, 10, 1);
-  flex-shrink: 0;
+  max-width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 0;
   border-radius: 5px;
 }
 .img__crNuF {
@@ -3684,8 +3690,8 @@
 }
 .button__s6Wd {
   position: relative;
-  width: 300px;
-  height: 51px;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Alegreya Sans", sans-serif;
@@ -3694,7 +3700,10 @@
   color: #ffffff;
   text-transform: uppercase;
   background: rgba(126, 192, 10, 1);
-  flex-shrink: 0;
+  max-width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 0;
   border-radius: 5px;
 }
 .img___3H4Vb {
@@ -6450,9 +6459,9 @@
 }
 .text__p59Es {
   position: absolute;
-  width: 171px;
+  width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 175px;
   margin-right: 0px;
   text-align: center;
   font-size: 25px;
@@ -6462,6 +6471,7 @@
   font-weight: 700;
   left: 85px;
   top: -20px;
+  min-width: 0;
   border-radius: 9px;
 }
 .text__tmXdL {
@@ -6798,9 +6808,9 @@
 }
 .text__gWusq {
   position: absolute;
-  width: 171px;
+  width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 175px;
   margin-right: 0px;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 25px;
@@ -6810,6 +6820,7 @@
   background: #1ca6c4;
   left: 85px;
   top: -25px;
+  min-width: 0;
   border-radius: 9px;
 }
 .text__z4Fr {
