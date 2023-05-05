@@ -2628,200 +2628,251 @@ function PlasmicOffer2__RenderFunc(props: {
                 >
                   {"We’ve Got You Covered"}
                 </div>
-                <div className={classNames(projectcss.all, sty.freeBox__ocTjp)}>
-                  <Collapse
-                    className={classNames(
-                      "__wab_instance",
-                      sty.antdCollapse__rchKu
-                    )}
-                    expandIconPosition={"right" as const}
-                    ghost={false}
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ocTjp)}
                   >
-                    <CollapsePanel
+                    <Collapse
                       className={classNames(
                         "__wab_instance",
-                        sty.antdCollapsePanel__mitm1
+                        sty.antdCollapse__rchKu
                       )}
-                      header={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__wGqQm
-                          )}
-                        >
-                          {"Is Sparq Vitamin Air safe?"}
-                        </div>
-                      }
-                      key={"1" as const}
+                      expandIconPosition={"right" as const}
+                      ghost={false}
                     >
-                      <div
+                      <CollapsePanel
                         className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__syhsi
+                          "__wab_instance",
+                          sty.antdCollapsePanel__mitm1
                         )}
-                      >
-                        {
-                          "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
+                        header={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__wGqQm
+                            )}
+                          >
+                            {"Is Sparq Vitamin Air safe?"}
+                          </div>
                         }
-                      </div>
-                    </CollapsePanel>
-                  </Collapse>
-                  <Collapse
-                    className={classNames(
-                      "__wab_instance",
-                      sty.antdCollapse__piwaV
-                    )}
-                    expandIconPosition={"right" as const}
-                  >
-                    <CollapsePanel
-                      className={classNames(
-                        "__wab_instance",
-                        sty.antdCollapsePanel__knMvm
-                      )}
-                      header={
+                        key={"1" as const}
+                      >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__u0U2R
+                            sty.text__syhsi
                           )}
                         >
                           {
-                            "What are the ingredients used in Sparq Vitamin Air?"
+                            "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
                           }
                         </div>
-                      }
-                      key={"1" as const}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qgAp2
-                        )}
-                      >
-                        {
-                          "Our formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
-                        }
-                      </div>
-                    </CollapsePanel>
-                  </Collapse>
-                  <Collapse
-                    className={classNames(
-                      "__wab_instance",
-                      sty.antdCollapse__cK7Vx
-                    )}
-                    expandIconPosition={"right" as const}
-                  >
-                    <CollapsePanel
+                      </CollapsePanel>
+                    </Collapse>
+                    <Collapse
                       className={classNames(
                         "__wab_instance",
-                        sty.antdCollapsePanel__lvkl
+                        sty.antdCollapse__piwaV
                       )}
-                      header={
+                      expandIconPosition={"right" as const}
+                    >
+                      <CollapsePanel
+                        className={classNames(
+                          "__wab_instance",
+                          sty.antdCollapsePanel__knMvm
+                        )}
+                        header={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__u0U2R
+                            )}
+                          >
+                            {
+                              "What are the ingredients used in Sparq Vitamin Air?"
+                            }
+                          </div>
+                        }
+                        key={"1" as const}
+                      >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__t2Oic
+                            sty.text__qgAp2
                           )}
                         >
-                          {"How do I use Sparq Vitamin Air?"}
+                          {
+                            "Our formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
+                          }
                         </div>
-                      }
-                      key={"1" as const}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__nkiS
-                        )}
-                      >
-                        {
-                          "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suction."
-                        }
-                      </div>
-                    </CollapsePanel>
-                  </Collapse>
-                  <Collapse
-                    className={classNames(
-                      "__wab_instance",
-                      sty.antdCollapse___8SFNf
-                    )}
-                    expandIconPosition={"right" as const}
-                  >
-                    <CollapsePanel
+                      </CollapsePanel>
+                    </Collapse>
+                    <Collapse
                       className={classNames(
                         "__wab_instance",
-                        sty.antdCollapsePanel__zIjfl
+                        sty.antdCollapse__cK7Vx
                       )}
-                      header={
+                      expandIconPosition={"right" as const}
+                    >
+                      <CollapsePanel
+                        className={classNames(
+                          "__wab_instance",
+                          sty.antdCollapsePanel__lvkl
+                        )}
+                        header={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__t2Oic
+                            )}
+                          >
+                            {"How do I use Sparq Vitamin Air?"}
+                          </div>
+                        }
+                        key={"1" as const}
+                      >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__x8Evv
+                            sty.text__nkiS
                           )}
                         >
-                          {"How long does it last?"}
+                          {
+                            "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suction."
+                          }
                         </div>
-                      }
-                      key={"1" as const}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___0BPAo
-                        )}
-                      >
-                        {
-                          "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
-                        }
-                      </div>
-                    </CollapsePanel>
-                  </Collapse>
-                  <Collapse
-                    className={classNames(
-                      "__wab_instance",
-                      sty.antdCollapse__l8Yga
-                    )}
-                    expandIconPosition={"right" as const}
-                  >
-                    <CollapsePanel
+                      </CollapsePanel>
+                    </Collapse>
+                    <Collapse
                       className={classNames(
                         "__wab_instance",
-                        sty.antdCollapsePanel__qGbvI
+                        sty.antdCollapse___8SFNf
                       )}
-                      header={
+                      expandIconPosition={"right" as const}
+                    >
+                      <CollapsePanel
+                        className={classNames(
+                          "__wab_instance",
+                          sty.antdCollapsePanel__zIjfl
+                        )}
+                        header={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__x8Evv
+                            )}
+                          >
+                            {"How long does it last?"}
+                          </div>
+                        }
+                        key={"1" as const}
+                      >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__gT7RM
+                            sty.text___0BPAo
                           )}
                         >
-                          {"What materials is Sparq made from?"}
+                          {
+                            "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
+                          }
                         </div>
-                      }
-                      key={"1" as const}
+                      </CollapsePanel>
+                    </Collapse>
+                    <Collapse
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapse__l8Yga
+                      )}
+                      expandIconPosition={"right" as const}
                     >
-                      <div
+                      <CollapsePanel
                         className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__k8HpX
+                          "__wab_instance",
+                          sty.antdCollapsePanel__qGbvI
                         )}
-                      >
-                        {
-                          "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
+                        header={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__gT7RM
+                            )}
+                          >
+                            {"What materials is Sparq made from?"}
+                          </div>
                         }
-                      </div>
-                    </CollapsePanel>
-                  </Collapse>
+                        key={"1" as const}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__k8HpX
+                          )}
+                        >
+                          {
+                            "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
+                          }
+                        </div>
+                      </CollapsePanel>
+                    </Collapse>
+                  </div>
+                ) : null}
+                <div className={classNames(projectcss.all, sty.freeBox__bdqu1)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__caq4O
+                    )}
+                  >
+                    {"Is Sparq Vitamin Air safe?"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__h7Quf
+                    )}
+                  >
+                    {"What are the ingredients used in Sparq Vitamin Air?"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rXdHp
+                    )}
+                  >
+                    {"How do I use Sparq Vitamin Air?"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__u7WqH
+                    )}
+                  >
+                    {"How long does it last?"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__xZtcp
+                    )}
+                  >
+                    {"What materials is Sparq made from?"}
+                  </div>
                 </div>
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__qkK15)}>
@@ -5097,120 +5148,157 @@ function PlasmicOffer2__RenderFunc(props: {
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
               ) ? (
                 <div className={classNames(projectcss.all, sty.freeBox__buk54)}>
-                  <Slider
-                    className={classNames("__wab_instance", sty.slider__gedk)}
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__mFkz)}
                   >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__jgybz)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/rightarrpng.png",
+                          fullWidth: 90,
+                          fullHeight: 90,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    ) : null}
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__rr7Rj)}
+                      displayHeight={"auto" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"100px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/offer_page/images/imageD92Fde422B7A4Cf9925BD85C73C66935Webp.webp",
+                        fullWidth: 1024,
+                        fullHeight: 1024,
+                        aspectRatio: undefined
+                      }}
+                    />
+
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__mFkz)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__xucu6
+                      )}
                     >
-                      {(
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? true
-                          : true
-                      ) ? (
+                      {"Totally love this!"}
+                    </div>
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img___977Gi)}
+                      displayHeight={"15px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"80px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/offer_page/images/starpng3.png",
+                        fullWidth: 1726,
+                        fullHeight: 312,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__a0VQ4
+                      )}
+                    >
+                      {
+                        "I really enjoy using this as my primary device, and also knowing it is healthy what I am inhaling from this also brings me a lot of comfort and relief!"
+                      }
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__p4AhR
+                      )}
+                    >
+                      {"William B."}
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__dd53B)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__xfaDj)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"16px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"26px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/verifypng.png",
+                          fullWidth: 32,
+                          fullHeight: 31,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__wxR71
+                        )}
+                      >
+                        {" Verified Buyer"}
+                      </div>
+                    </div>
+                  </div>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <Slider
+                      className={classNames("__wab_instance", sty.slider__gedk)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__bdC11
+                        )}
+                      >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__jgybz)}
+                          className={classNames(sty.img__inbCc)}
                           displayHeight={"auto" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
+                          displayWidth={"100px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/offer_page/images/rightarrpng.png",
-                            fullWidth: 90,
-                            fullHeight: 90,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      ) : null}
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__rr7Rj)}
-                        displayHeight={"auto" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"100px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/offer_page/images/imageD92Fde422B7A4Cf9925BD85C73C66935Webp.webp",
-                          fullWidth: 1024,
-                          fullHeight: 1024,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__xucu6
-                        )}
-                      >
-                        {"Totally love this!"}
-                      </div>
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img___977Gi)}
-                        displayHeight={"15px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"80px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/offer_page/images/starpng3.png",
-                          fullWidth: 1726,
-                          fullHeight: 312,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__a0VQ4
-                        )}
-                      >
-                        {
-                          "I really enjoy using this as my primary device, and also knowing it is healthy what I am inhaling from this also brings me a lot of comfort and relief!"
-                        }
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__p4AhR
-                        )}
-                      >
-                        {"William B."}
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__dd53B
-                        )}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__xfaDj)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"16px" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"26px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/offer_page/images/verifypng.png",
-                            fullWidth: 32,
-                            fullHeight: 31,
+                            src: "/plasmic/offer_page/images/sidereview2Avif.avif",
+                            fullWidth: 119,
+                            fullHeight: 119,
                             aspectRatio: undefined
                           }}
                         />
@@ -5219,101 +5307,25 @@ function PlasmicOffer2__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__wxR71
+                            sty.text__eCaTj
                           )}
                         >
-                          {" Verified Buyer"}
+                          {"Awesome"}
                         </div>
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__bdC11)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__inbCc)}
-                        displayHeight={"auto" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"100px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/offer_page/images/sidereview2Avif.avif",
-                          fullWidth: 119,
-                          fullHeight: 119,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__eCaTj
-                        )}
-                      >
-                        {"Awesome"}
-                      </div>
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img___7HhxD)}
-                        displayHeight={"15px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"80px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/offer_page/images/starpng3.png",
-                          fullWidth: 1726,
-                          fullHeight: 312,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___8YT3J
-                        )}
-                      >
-                        {
-                          '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
-                        }
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___0OmH
-                        )}
-                      >
-                        {"Jason G."}
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__rQ1Sx
-                        )}
-                      >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__yz8Sc)}
-                          displayHeight={"auto" as const}
+                          className={classNames(sty.img___7HhxD)}
+                          displayHeight={"15px" as const}
                           displayMaxHeight={"none" as const}
-                          displayMaxWidth={"16px" as const}
+                          displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"26px" as const}
+                          displayWidth={"80px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/offer_page/images/verifypng.png",
-                            fullWidth: 32,
-                            fullHeight: 31,
+                            src: "/plasmic/offer_page/images/starpng3.png",
+                            fullWidth: 1726,
+                            fullHeight: 312,
                             aspectRatio: undefined
                           }}
                         />
@@ -5322,14 +5334,59 @@ function PlasmicOffer2__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__ljD7X
+                            sty.text___8YT3J
                           )}
                         >
-                          {" Verified Buyer"}
+                          {
+                            '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
+                          }
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___0OmH
+                          )}
+                        >
+                          {"Jason G."}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__rQ1Sx
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__yz8Sc)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"16px" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"26px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/offer_page/images/verifypng.png",
+                              fullWidth: 32,
+                              fullHeight: 31,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ljD7X
+                            )}
+                          >
+                            {" Verified Buyer"}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </Slider>
+                    </Slider>
+                  ) : null}
                   {(
                     hasVariant(globalVariants, "screen", "mobileOnly")
                       ? true
@@ -5509,211 +5566,291 @@ function PlasmicOffer2__RenderFunc(props: {
                 >
                   {"We’ve Got You Covered"}
                 </div>
-                <Collapse
-                  className={classNames(
-                    "__wab_instance",
-                    sty.antdCollapse___8Z9Hw
-                  )}
-                  expandIconPosition={"right" as const}
-                >
-                  <CollapsePanel
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <Collapse
+                    accordion={true}
                     className={classNames(
                       "__wab_instance",
-                      sty.antdCollapsePanel__bPVnq
+                      sty.antdCollapse___8Z9Hw
                     )}
-                    header={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___9Nn41
-                        )}
-                      >
-                        {"Is Sparq Vitamin Air safe?"}
-                      </div>
-                    }
-                    key={"1" as const}
+                    collapsible={"header" as const}
+                    expandIconPosition={"right" as const}
+                    ghost={false}
                   >
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
+                    <CollapsePanel
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapsePanel__bPVnq
+                      )}
+                      header={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___9Nn41
+                          )}
+                        >
+                          {"Is Sparq Vitamin Air safe?"}
+                        </div>
+                      }
+                      key={"1" as const}
+                    >
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__a3Fy
+                          )}
+                        >
+                          {"Insert text here"}
+                        </div>
+                      ) : null}
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__a3Fy
+                          sty.text__ylO4T
                         )}
                       >
-                        {"Insert text here"}
+                        {
+                          "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
+                        }
                       </div>
-                    ) : null}
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ylO4T
-                      )}
-                    >
-                      {
-                        "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
-                      }
-                    </div>
-                  </CollapsePanel>
-                </Collapse>
-                <Collapse
-                  className={classNames(
-                    "__wab_instance",
-                    sty.antdCollapse__rvHc
-                  )}
-                  expandIconPosition={"right" as const}
-                >
-                  <CollapsePanel
+                    </CollapsePanel>
+                  </Collapse>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <Collapse
                     className={classNames(
                       "__wab_instance",
-                      sty.antdCollapsePanel__yf215
+                      sty.antdCollapse__rvHc
                     )}
-                    header={
+                    expandIconPosition={"right" as const}
+                  >
+                    <CollapsePanel
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapsePanel__yf215
+                      )}
+                      header={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__d0Usg
+                          )}
+                        >
+                          {
+                            "What are the ingredients used in Sparq Vitamin Air?"
+                          }
+                        </div>
+                      }
+                      key={"1" as const}
+                    >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__d0Usg
+                          sty.text__fmk8J
                         )}
                       >
-                        {"What are the ingredients used in Sparq Vitamin Air?"}
+                        {
+                          "Our formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
+                        }
                       </div>
-                    }
-                    key={"1" as const}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__fmk8J
-                      )}
-                    >
-                      {
-                        "Our formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
-                      }
-                    </div>
-                  </CollapsePanel>
-                </Collapse>
-                <Collapse
-                  className={classNames(
-                    "__wab_instance",
-                    sty.antdCollapse___8ZwKo
-                  )}
-                  expandIconPosition={"right" as const}
-                >
-                  <CollapsePanel
+                    </CollapsePanel>
+                  </Collapse>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <Collapse
                     className={classNames(
                       "__wab_instance",
-                      sty.antdCollapsePanel__wdomy
+                      sty.antdCollapse___8ZwKo
                     )}
-                    header={
+                    expandIconPosition={"right" as const}
+                  >
+                    <CollapsePanel
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapsePanel__wdomy
+                      )}
+                      header={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__pMxOs
+                          )}
+                        >
+                          {"How do I use Sparq Vitamin Air?"}
+                        </div>
+                      }
+                      key={"1" as const}
+                    >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__pMxOs
+                          sty.text__m8Q4B
                         )}
                       >
-                        {"How do I use Sparq Vitamin Air?"}
+                        {
+                          "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suction."
+                        }
                       </div>
-                    }
-                    key={"1" as const}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__m8Q4B
-                      )}
-                    >
-                      {
-                        "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suction."
-                      }
-                    </div>
-                  </CollapsePanel>
-                </Collapse>
-                <Collapse
-                  className={classNames(
-                    "__wab_instance",
-                    sty.antdCollapse__mQkRa
-                  )}
-                  expandIconPosition={"right" as const}
-                >
-                  <CollapsePanel
+                    </CollapsePanel>
+                  </Collapse>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <Collapse
                     className={classNames(
                       "__wab_instance",
-                      sty.antdCollapsePanel__vnwKk
+                      sty.antdCollapse__mQkRa
                     )}
-                    header={
+                    expandIconPosition={"right" as const}
+                  >
+                    <CollapsePanel
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapsePanel__vnwKk
+                      )}
+                      header={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__qVBx
+                          )}
+                        >
+                          {"How long does it last?"}
+                        </div>
+                      }
+                      key={"1" as const}
+                    >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__qVBx
+                          sty.text__kHcE5
                         )}
                       >
-                        {"How long does it last?"}
+                        {
+                          "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
+                        }
                       </div>
-                    }
-                    key={"1" as const}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__kHcE5
-                      )}
-                    >
-                      {
-                        "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
-                      }
-                    </div>
-                  </CollapsePanel>
-                </Collapse>
-                <Collapse
-                  className={classNames(
-                    "__wab_instance",
-                    sty.antdCollapse__i7K73
-                  )}
-                  expandIconPosition={"right" as const}
-                >
-                  <CollapsePanel
+                    </CollapsePanel>
+                  </Collapse>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <Collapse
                     className={classNames(
                       "__wab_instance",
-                      sty.antdCollapsePanel__l4LwY
+                      sty.antdCollapse__i7K73
                     )}
-                    header={
+                    expandIconPosition={"right" as const}
+                  >
+                    <CollapsePanel
+                      className={classNames(
+                        "__wab_instance",
+                        sty.antdCollapsePanel__l4LwY
+                      )}
+                      header={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__szqPp
+                          )}
+                        >
+                          {"What materials is Sparq made from?"}
+                        </div>
+                      }
+                      key={"1" as const}
+                    >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__szqPp
+                          sty.text__xzq98
                         )}
                       >
-                        {"What materials is Sparq made from?"}
+                        {
+                          "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
+                        }
                       </div>
-                    }
-                    key={"1" as const}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__xzq98
-                      )}
-                    >
-                      {
-                        "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
-                      }
-                    </div>
-                  </CollapsePanel>
-                </Collapse>
+                    </CollapsePanel>
+                  </Collapse>
+                ) : null}
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__owJva
+                  )}
+                >
+                  {"Is Sparq Vitamin Air safe?"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___8IIle
+                  )}
+                >
+                  {"What are the ingredients used in Sparq Vitamin Air?"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__exyui
+                  )}
+                >
+                  {"How do I use Sparq Vitamin Air?"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___6Cja3
+                  )}
+                >
+                  {"How long does it last?"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__vbt3
+                  )}
+                >
+                  {"What materials is Sparq made from?"}
+                </div>
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__iD2J0)}>
                 <div
@@ -10441,15 +10578,6 @@ function PlasmicOffer2__RenderFunc(props: {
               </p.Stack>
             </div>
           ) : null}
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__cNqpM
-            )}
-          >
-            {"1920px"}
-          </div>
         </div>
       </div>
     </React.Fragment>
