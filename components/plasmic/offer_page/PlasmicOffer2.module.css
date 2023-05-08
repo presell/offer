@@ -5,7 +5,7 @@
   width: 100%;
   height: 100%;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   min-width: 0;
   min-height: 0;
 }
@@ -58,13 +58,15 @@
   position: relative;
   flex-direction: row;
   align-items: stretch;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   height: auto;
   max-width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0px;
   background: #ffce58;
   min-width: 0;
-  padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox___80Ir9 {
@@ -76,12 +78,15 @@
   position: relative;
   text-align: center;
   font-size: 22px;
-  color: #3f3a29;
+  color: #403b2a;
   line-height: 22px;
   letter-spacing: 0em;
   width: auto;
   padding-right: 17px;
-  padding-left: 114px;
+  padding-left: 0px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 15px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__qkq6Q {
@@ -94,12 +99,11 @@
   width: 200px;
   background: #3f3a29;
   color: #ffffff;
-  height: 100%;
+  height: 60px;
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 900;
   font-size: 18px;
   flex-shrink: 0;
-  min-height: 0;
   padding: 10px 8px;
   margin: 0px;
 }
@@ -107,7 +111,7 @@
   position: relative;
   text-align: center;
   align-self: flex-end;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 22px;
@@ -116,8 +120,8 @@
   line-height: 22px;
   letter-spacing: 0em;
   padding-left: 0px;
-  height: 48px;
-  width: 150px;
+  height: 59px;
+  width: 211px;
   flex-shrink: 0;
 }
 .freeBox__fD7Ia {
@@ -128,7 +132,7 @@
   background: url("/plasmic/offer_page/images/div4.png") 0px 0px / cover no-repeat, #ffffff;
   align-self: center;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   min-width: 100%;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -141,13 +145,14 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  width: auto;
+  justify-content: center;
   height: auto;
   max-width: 100%;
   left: auto;
   top: auto;
-  padding: 8px 0px 8px 8px;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 0px 8px 151px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__pE4LJ {
@@ -160,7 +165,7 @@
   max-width: 100%;
   width: 215px;
   align-self: flex-start;
-  margin-left: 34px;
+  margin-left: 10px;
   margin-top: 30px;
 }
 .img__gSrDf > picture > img {
@@ -179,9 +184,12 @@
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
   margin-left: 0px;
-  padding-left: 34px;
   color: #403b2a;
   line-height: 55px;
+  align-self: center;
+  text-align: left;
+  padding-right: 0px;
+  padding-left: 10px;
   min-width: 0;
 }
 .freeBox__oySrA {
@@ -194,7 +202,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 20px 8px 20px 34px;
+  padding: 20px 0px 20px 10px;
 }
 .freeBox__wFaAk {
   display: flex;
@@ -211,10 +219,10 @@
 .img__njlCj {
   position: relative;
   object-fit: cover;
-  max-width: 33px;
-  width: 30px;
-  height: 28px;
-  margin-top: 3px;
+  max-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
   flex-shrink: 0;
 }
 .img__njlCj > picture > img {
@@ -228,7 +236,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 22px;
   color: #403b2a;
   line-height: 40px;
@@ -250,10 +258,10 @@
 .img__mmys6 {
   position: relative;
   object-fit: cover;
-  max-width: 33px;
-  width: 30px;
-  height: 28px;
-  margin-top: 3px;
+  max-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
   flex-shrink: 0;
 }
 .img__mmys6 > picture > img {
@@ -267,7 +275,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 22px;
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
@@ -289,10 +297,10 @@
 .img__cbIi8 {
   position: relative;
   object-fit: cover;
-  max-width: 33px;
-  width: 30px;
-  height: 28px;
-  margin-top: 3px;
+  max-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
   flex-shrink: 0;
 }
 .img__cbIi8 > picture > img {
@@ -306,7 +314,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 22px;
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
@@ -328,10 +336,10 @@
 .img__tdeOy {
   position: relative;
   object-fit: cover;
-  max-width: 33px;
-  width: 30px;
-  height: 28px;
-  margin-top: 3px;
+  max-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
   flex-shrink: 0;
 }
 .img__tdeOy > picture > img {
@@ -345,22 +353,24 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 22px;
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
+  line-height: 40px;
   min-width: 0;
 }
 .text__zc3UN {
   position: relative;
-  width: auto;
+  width: 651px;
   height: auto;
   max-width: 100%;
   font-size: 20px;
-  padding-left: 34px;
+  padding-left: 10px;
   color: #666666;
   line-height: 30px;
   font-family: "Alegreya Sans", sans-serif;
+  align-self: flex-start;
 }
 .freeBox___369It {
   display: flex;
@@ -368,23 +378,25 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
-  min-width: 0;
-  padding: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-left: 0px;
+  align-self: flex-start;
 }
 .freeBox__xC891 {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: center;
+  width: auto;
   height: auto;
   max-width: 100%;
-  min-width: 0;
-  padding: 8px;
+  margin-left: 0px;
+  padding: 8px 0px;
 }
 .freeBox__zZs3B {
   display: flex;
@@ -392,10 +404,9 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 100%;
+  width: 282px;
   height: auto;
   max-width: 100%;
-  min-width: 0;
   padding: 8px 0px 0px 8px;
 }
 .img___4RWkQ {
@@ -430,7 +441,7 @@
   height: 51px;
   background: rgba(126, 192, 10, 1);
   color: #ffffff;
-  width: 100%;
+  width: 260px;
   font-size: 18px;
   flex-grow: 0;
   margin-bottom: 10px;
@@ -443,8 +454,7 @@
   position: relative;
   object-fit: cover;
   max-width: none;
-  width: 100%;
-  min-width: 0;
+  width: 221px;
 }
 .img__lcp59 > picture > img {
   object-fit: cover;
@@ -456,7 +466,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
   height: auto;
@@ -468,18 +478,20 @@
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 351px;
   height: auto;
   max-width: 100%;
-  min-width: 0;
   padding: 8px;
 }
 .img__utEDc {
   position: relative;
   object-fit: cover;
-  max-width: 100%;
+  max-width: 70px;
+  height: 70px;
+  width: 100%;
+  min-width: 0;
 }
 .img__utEDc > picture > img {
   object-fit: cover;
@@ -496,13 +508,14 @@
   font-size: 15px;
   color: #666666;
   font-family: "Alegreya Sans", sans-serif;
+  padding-top: 20px;
   min-width: 0;
 }
 .freeBox__bwRur {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   width: 100%;
   height: 100%;
@@ -619,10 +632,11 @@
 .freeBox___1U2Ag {
   display: flex;
   position: relative;
-  width: auto;
+  width: 100%;
   height: 642px;
   background: linear-gradient(180deg, #f6f6f1 99%, rgba(237, 237, 227, 1) 199%)
     0% 0% / 100% 100% no-repeat;
+  min-width: 0;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -640,7 +654,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__gragg {
@@ -673,7 +687,6 @@
   height: auto;
   max-width: 100%;
   padding-left: 8px;
-  padding-right: 8px;
   padding-top: 50px;
   min-width: 0;
 }
@@ -867,13 +880,13 @@
   position: relative;
   flex-direction: row;
   align-items: stretch;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   height: auto;
   max-width: 100%;
   background: #ffffff;
   min-width: 0;
-  padding: 8px 8px 70px;
+  padding: 8px 80px 70px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__mH0C {
@@ -885,7 +898,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -1047,12 +1060,13 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 100%;
+  width: 1403px;
   height: auto;
   max-width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
   margin-top: 40px;
-  min-width: 0;
-  padding: 8px;
 }
 .freeBox__geZfN {
   display: flex;
@@ -1207,10 +1221,10 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: none;
   min-width: 0;
   padding: 8px;
 }
@@ -1255,12 +1269,11 @@
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  width: 946px;
   height: auto;
   max-width: 100%;
-  min-width: 0;
   padding: 8px 8px 50px;
 }
 .freeBox__yu6Ao {
@@ -1744,13 +1757,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
   padding-right: 8px;
   padding-bottom: 70px;
   padding-top: 70px;
-  min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__qs403 {
@@ -1913,7 +1925,7 @@
 }
 .text__feJsy {
   position: relative;
-  width: auto;
+  width: 335px;
   height: 135px;
   max-width: 100%;
   color: #666666;
@@ -1923,6 +1935,8 @@
   line-height: 22px;
   padding-right: 0px;
   padding-left: 0px;
+  padding-top: 0px;
+  text-decoration-line: none;
   flex-shrink: 0;
 }
 .text__q9F41 {
@@ -2033,7 +2047,6 @@
 }
 .text__mdHL {
   position: relative;
-  width: auto;
   height: 135px;
   max-width: 100%;
   padding-right: 0px;
@@ -2044,6 +2057,8 @@
   text-align: center;
   line-height: 22px;
   padding-top: 0px;
+  width: 335px;
+  text-decoration-line: none;
   flex-shrink: 0;
 }
 .text__dnpF6 {
@@ -2154,7 +2169,7 @@
 }
 .text__ahejV {
   position: relative;
-  width: 100%;
+  width: 335px;
   height: 135px;
   max-width: 100%;
   padding-top: 0px;
@@ -2166,7 +2181,6 @@
   text-align: center;
   line-height: 22px;
   text-decoration-line: none;
-  min-width: 0;
   flex-shrink: 0;
 }
 .text___54EsP {
@@ -2224,12 +2238,11 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
   background: #eeeee4;
   margin-top: 90px;
-  min-width: 0;
   padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -2638,7 +2651,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 900px;
   font-size: 18px;
   background: #f4f4ed;
   margin-bottom: 20px;
@@ -2653,7 +2666,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 900px;
   font-size: 18px;
   background: #f4f4ed;
   margin-bottom: 20px;
@@ -2668,7 +2681,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 900px;
   font-size: 18px;
   background: #f4f4ed;
   margin-bottom: 20px;
@@ -2683,7 +2696,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 900px;
   font-size: 18px;
   background: #f4f4ed;
   margin-bottom: 20px;
@@ -2698,7 +2711,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 900px;
   margin-bottom: 20px;
   font-size: 18px;
   background: #f4f4ed;
@@ -3747,6 +3760,7 @@
   line-height: 20px;
   letter-spacing: 0em;
   font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
 }
 .freeBox__aNcn6 {
   display: flex;
@@ -3757,9 +3771,7 @@
   width: 235px;
   height: auto;
   max-width: 100%;
-  padding-right: 8px;
-  padding-bottom: 8px;
-  padding-top: 4px;
+  padding: 0px;
 }
 .button___0T3BV {
   position: relative;
@@ -3778,13 +3790,14 @@
   position: relative;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   color: #403b2a;
   text-align: center;
   line-height: 20px;
   letter-spacing: 0em;
   padding-left: 26px;
   margin-left: 0px;
+  padding-top: 5px;
 }
 .freeBox__umcM {
   position: relative;
@@ -3847,7 +3860,7 @@
 }
 .text__hdqiT {
   position: relative;
-  font-size: 25px;
+  font-size: 27px;
   text-align: center;
   letter-spacing: 0em;
   color: #403b2a;
@@ -3855,6 +3868,7 @@
   font-family: "Alegreya Sans", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
+  font-weight: 300;
 }
 .freeBox__cYcLv {
   display: flex;
@@ -3890,7 +3904,7 @@
   max-width: 100%;
   color: #403b2a;
   padding-left: 15px;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Alegreya Sans", sans-serif;
   min-width: 0;
 }
@@ -3924,13 +3938,13 @@
 .text__rVmk {
   position: relative;
   width: 100%;
-  height: 22px;
+  height: 25px;
   max-width: 100%;
   padding-left: 15px;
   color: #403b2a;
   padding-bottom: 0px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   min-width: 0;
 }
 .freeBox__mI8FZ {
@@ -3963,12 +3977,12 @@
 .text__jGaVl {
   position: relative;
   width: 100%;
-  height: 19px;
+  height: 23px;
   max-width: 100%;
   padding-left: 15px;
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   min-width: 0;
 }
 .freeBox__xzkdA {
@@ -4006,7 +4020,7 @@
   padding-left: 15px;
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   min-width: 0;
 }
 .freeBox__ok007 {
@@ -4284,7 +4298,7 @@
 .text__coEtJ {
   position: relative;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: #e4a715;
   text-align: center;
@@ -4469,12 +4483,16 @@
 }
 .text__sqhka {
   position: relative;
-  font-size: 32px;
+  font-size: 35px;
   color: #403b2a;
   text-align: center;
   line-height: 40px;
   letter-spacing: 0em;
   font-family: "Alegreya Sans", sans-serif;
+  max-width: 351px;
+  width: 100%;
+  font-weight: 300;
+  min-width: 0;
   margin: 15px 0px 0px;
 }
 .text___21EqO {
@@ -4523,12 +4541,12 @@
   font-weight: 400;
   color: #666666;
   text-align: center;
-  margin-bottom: 0px;
-  padding-top: 0px;
   line-height: 25px;
   letter-spacing: normal;
   max-width: 400%;
   width: auto;
+  padding: 0px;
+  margin: 0px;
 }
 .freeBox__ldEu3 {
   display: flex;
@@ -5688,7 +5706,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  font-size: 12px;
+  font-size: 12.5px;
   padding-left: 8px;
   min-width: 0;
 }
@@ -6275,7 +6293,7 @@
   max-width: 400px;
   margin-bottom: 20px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #403b2a;
   line-height: 20px;
   background: #f4f4ed;
@@ -6290,7 +6308,7 @@
   max-width: 400px;
   margin-bottom: 20px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #403b2a;
   line-height: 20px;
   background: #f4f4ed;
@@ -6305,7 +6323,7 @@
   max-width: 400px;
   margin-bottom: 20px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #403b2a;
   line-height: 20px;
   background: #f4f4ed;
@@ -6320,7 +6338,7 @@
   max-width: 400px;
   margin-bottom: 20px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #403b2a;
   line-height: 20px;
   background: #f4f4ed;
@@ -6335,7 +6353,7 @@
   max-width: 400px;
   margin-bottom: 20px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #403b2a;
   line-height: 20px;
   background: #f4f4ed;
@@ -6479,7 +6497,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  font-size: 25px;
+  font-size: 28px;
   text-transform: capitalize;
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 700;
@@ -6508,7 +6526,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  font-size: 13px;
+  font-size: 14px;
   color: #403b2a;
   text-align: center;
   font-family: "Alegreya Sans", sans-serif;
@@ -6547,7 +6565,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 19px;
   font-family: "Alegreya Sans", sans-serif;
   color: #504a37;
@@ -6572,7 +6590,7 @@
   height: auto;
   max-width: 100%;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #504a37;
   text-align: center;
   line-height: 19px;
@@ -6599,7 +6617,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 200px;
+  width: 245px;
   height: auto;
   max-width: none;
   padding: 0px;
@@ -6627,7 +6645,7 @@
   color: #403b2a;
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   padding-left: 8px;
   min-width: 0;
 }
@@ -6637,7 +6655,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 200px;
+  width: 245px;
   height: auto;
   max-width: 100%;
   padding: 0px;
@@ -6664,7 +6682,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -6675,7 +6693,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 200px;
+  width: 245px;
   height: auto;
   max-width: 100%;
   padding: 0px;
@@ -6702,7 +6720,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -6831,7 +6849,7 @@
   margin-top: 0px;
   margin-bottom: 15px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   color: #504a37;
   text-align: center;
@@ -6858,7 +6876,7 @@
   max-width: 100%;
   margin-top: 10px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   font-style: normal;
   color: #403b2a;
@@ -6896,7 +6914,7 @@
   height: auto;
   max-width: 100%;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #504a37;
   text-align: center;
   line-height: 19px;
@@ -6920,7 +6938,7 @@
   height: auto;
   max-width: 100%;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #504a37;
   text-align: center;
   line-height: 19px;
@@ -6947,7 +6965,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 264px;
+  width: 351px;
   height: auto;
   max-width: 100%;
   padding: 0px;
@@ -6974,7 +6992,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -6985,7 +7003,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 264px;
+  width: 351px;
   height: auto;
   max-width: 100%;
   padding: 0px;
@@ -7012,7 +7030,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -7023,7 +7041,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 264px;
+  width: 351px;
   height: auto;
   max-width: 100%;
   margin-right: 0px;
@@ -7051,7 +7069,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -7184,7 +7202,7 @@
   margin-top: 0px;
   margin-bottom: 15px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   color: #504a37;
   text-align: center;
@@ -7212,7 +7230,7 @@
   max-width: 100%;
   margin-top: 10px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   font-style: normal;
   color: #403b2a;
@@ -7250,7 +7268,7 @@
   height: auto;
   max-width: 100%;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #504a37;
   text-align: center;
   line-height: 19px;
@@ -7274,7 +7292,7 @@
   height: auto;
   max-width: 100%;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #504a37;
   text-align: center;
   line-height: 19px;
@@ -7328,7 +7346,7 @@
   max-width: 100%;
   padding-left: 8px;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #403b2a;
   min-width: 0;
@@ -10415,7 +10433,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 2.64px);
   width: calc(100% + 2.64px);
-  --plsmc-col-gap: 2.64px;
 }
 .ul10 > :global(.__wab_flex-container) > *,
 .ul10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -11075,7 +11092,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 2.64px);
   width: calc(100% + 2.64px);
-  --plsmc-col-gap: 2.64px;
 }
 .ul12 > :global(.__wab_flex-container) > *,
 .ul12 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -11728,7 +11744,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 2.64px);
   width: calc(100% + 2.64px);
-  --plsmc-col-gap: 2.64px;
 }
 .ul14 > :global(.__wab_flex-container) > *,
 .ul14 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,

@@ -509,9 +509,19 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.text__qkq6Q
                     )}
                   >
-                    {
-                      "SPECIAL OFFER: Claim this one-time offer. Try Vitamin Air at a fraction of the regular price today."
-                    }
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"SPECIAL OFFER:"}
+                      </span>
+                      <React.Fragment>
+                        {
+                          " Claim this one-time offer. Try Vitamin Air at a fraction of the regular price today."
+                        }
+                      </React.Fragment>
+                    </React.Fragment>
                   </div>
                   <button
                     className={classNames(
@@ -610,12 +620,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__njlCj)}
-                            displayHeight={"28px" as const}
+                            displayHeight={"20px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"33px" as const}
+                            displayMaxWidth={"20px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"30px" as const}
+                            displayWidth={"20px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -659,12 +669,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__mmys6)}
-                            displayHeight={"28px" as const}
+                            displayHeight={"20px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"33px" as const}
+                            displayMaxWidth={"20px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"30px" as const}
+                            displayWidth={"20px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -706,12 +716,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__cbIi8)}
-                            displayHeight={"28px" as const}
+                            displayHeight={"20px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"33px" as const}
+                            displayMaxWidth={"20px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"30px" as const}
+                            displayWidth={"20px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -752,12 +762,12 @@ function PlasmicOffer2__RenderFunc(props: {
                           <p.PlasmicImg
                             alt={""}
                             className={classNames(sty.img__tdeOy)}
-                            displayHeight={"28px" as const}
+                            displayHeight={"20px" as const}
                             displayMaxHeight={"none" as const}
-                            displayMaxWidth={"33px" as const}
+                            displayMaxWidth={"20px" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"30px" as const}
+                            displayWidth={"20px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/li3.png",
@@ -878,7 +888,7 @@ function PlasmicOffer2__RenderFunc(props: {
                               sty.button__cZc6T
                             )}
                           >
-                            {"GET YOURS NOW"}
+                            {"GET YOURS NOW 👉"}
                           </button>
                           <p.PlasmicImg
                             alt={""}
@@ -888,7 +898,7 @@ function PlasmicOffer2__RenderFunc(props: {
                             displayMaxWidth={"none" as const}
                             displayMinHeight={"0" as const}
                             displayMinWidth={"0" as const}
-                            displayWidth={"100%" as const}
+                            displayWidth={"221px" as const}
                             loading={"lazy" as const}
                             src={{
                               src: "/plasmic/offer_page/images/paymentlogoavif.avif",
@@ -913,12 +923,12 @@ function PlasmicOffer2__RenderFunc(props: {
                             <p.PlasmicImg
                               alt={""}
                               className={classNames(sty.img__utEDc)}
-                              displayHeight={"auto" as const}
+                              displayHeight={"70px" as const}
                               displayMaxHeight={"none" as const}
-                              displayMaxWidth={"100%" as const}
+                              displayMaxWidth={"70px" as const}
                               displayMinHeight={"0" as const}
                               displayMinWidth={"0" as const}
-                              displayWidth={"auto" as const}
+                              displayWidth={"100%" as const}
                               loading={"lazy" as const}
                               src={{
                                 src: "/plasmic/offer_page/images/bannerrevE286F02653C5463D95E17D983A6A0996Webp.webp",
@@ -938,7 +948,7 @@ function PlasmicOffer2__RenderFunc(props: {
                               <React.Fragment>
                                 <React.Fragment>
                                   {
-                                    "“Super helpful when quitting nic. Replaces the oral fixation and also keeps me alert!”\n\n"
+                                    "“Super helpful when quitting nic. Replaces the oral fixation and also keeps me alert!”\n"
                                   }
                                 </React.Fragment>
                                 <span
@@ -1407,7 +1417,7 @@ function PlasmicOffer2__RenderFunc(props: {
                         sty.button__pPocM
                       )}
                     >
-                      {"GET YOURS NOW "}
+                      {"GET YOURS NOW 👉"}
                     </button>
                     <p.PlasmicImg
                       alt={""}
@@ -2029,7 +2039,7 @@ function PlasmicOffer2__RenderFunc(props: {
                         sty.button__dMQwC
                       )}
                     >
-                      {"GET YOURS NOW"}
+                      {"GET YOURS NOW 👉"}
                     </button>
                     <p.PlasmicImg
                       alt={""}
@@ -2566,7 +2576,7 @@ function PlasmicOffer2__RenderFunc(props: {
                         sty.button__u1VGm
                       )}
                     >
-                      {"GET YOURS NOW"}
+                      {"GET YOURS NOW 👉"}
                     </button>
                     <p.PlasmicImg
                       alt={""}
@@ -2637,14 +2647,17 @@ function PlasmicOffer2__RenderFunc(props: {
                         "__wab_instance",
                         sty.antdCollapse__rchKu
                       )}
+                      closeIcon={null}
                       expandIconPosition={"right" as const}
                       ghost={false}
+                      openIcon={null}
                     >
                       <CollapsePanel
                         className={classNames(
                           "__wab_instance",
                           sty.antdCollapsePanel__mitm1
                         )}
+                        extra={null}
                         header={
                           <div
                             className={classNames(
@@ -2676,13 +2689,16 @@ function PlasmicOffer2__RenderFunc(props: {
                         "__wab_instance",
                         sty.antdCollapse__piwaV
                       )}
+                      closeIcon={null}
                       expandIconPosition={"right" as const}
+                      openIcon={null}
                     >
                       <CollapsePanel
                         className={classNames(
                           "__wab_instance",
                           sty.antdCollapsePanel__knMvm
                         )}
+                        extra={null}
                         header={
                           <div
                             className={classNames(
@@ -2716,13 +2732,16 @@ function PlasmicOffer2__RenderFunc(props: {
                         "__wab_instance",
                         sty.antdCollapse__cK7Vx
                       )}
+                      closeIcon={null}
                       expandIconPosition={"right" as const}
+                      openIcon={null}
                     >
                       <CollapsePanel
                         className={classNames(
                           "__wab_instance",
                           sty.antdCollapsePanel__lvkl
                         )}
+                        extra={null}
                         header={
                           <div
                             className={classNames(
@@ -2754,13 +2773,16 @@ function PlasmicOffer2__RenderFunc(props: {
                         "__wab_instance",
                         sty.antdCollapse___8SFNf
                       )}
+                      closeIcon={null}
                       expandIconPosition={"right" as const}
+                      openIcon={null}
                     >
                       <CollapsePanel
                         className={classNames(
                           "__wab_instance",
                           sty.antdCollapsePanel__zIjfl
                         )}
+                        extra={null}
                         header={
                           <div
                             className={classNames(
@@ -2792,13 +2814,16 @@ function PlasmicOffer2__RenderFunc(props: {
                         "__wab_instance",
                         sty.antdCollapse__l8Yga
                       )}
+                      closeIcon={null}
                       expandIconPosition={"right" as const}
+                      openIcon={null}
                     >
                       <CollapsePanel
                         className={classNames(
                           "__wab_instance",
                           sty.antdCollapsePanel__qGbvI
                         )}
+                        extra={null}
                         header={
                           <div
                             className={classNames(
@@ -3144,7 +3169,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__m4O7
                     )}
                   >
-                    {"add to cart "}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -3410,7 +3435,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__vQtoB
                     )}
                   >
-                    {"add to cart "}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -3594,7 +3619,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__s6Wd
                     )}
                   >
-                    {"add to cart "}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -5577,15 +5602,18 @@ function PlasmicOffer2__RenderFunc(props: {
                       "__wab_instance",
                       sty.antdCollapse___8Z9Hw
                     )}
+                    closeIcon={null}
                     collapsible={"header" as const}
                     expandIconPosition={"right" as const}
                     ghost={false}
+                    openIcon={null}
                   >
                     <CollapsePanel
                       className={classNames(
                         "__wab_instance",
                         sty.antdCollapsePanel__bPVnq
                       )}
+                      extra={null}
                       header={
                         <div
                           className={classNames(
@@ -5638,13 +5666,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       "__wab_instance",
                       sty.antdCollapse__rvHc
                     )}
+                    closeIcon={null}
                     expandIconPosition={"right" as const}
+                    openIcon={null}
                   >
                     <CollapsePanel
                       className={classNames(
                         "__wab_instance",
                         sty.antdCollapsePanel__yf215
                       )}
+                      extra={null}
                       header={
                         <div
                           className={classNames(
@@ -5684,13 +5715,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       "__wab_instance",
                       sty.antdCollapse___8ZwKo
                     )}
+                    closeIcon={null}
                     expandIconPosition={"right" as const}
+                    openIcon={null}
                   >
                     <CollapsePanel
                       className={classNames(
                         "__wab_instance",
                         sty.antdCollapsePanel__wdomy
                       )}
+                      extra={null}
                       header={
                         <div
                           className={classNames(
@@ -5728,13 +5762,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       "__wab_instance",
                       sty.antdCollapse__mQkRa
                     )}
+                    closeIcon={null}
                     expandIconPosition={"right" as const}
+                    openIcon={null}
                   >
                     <CollapsePanel
                       className={classNames(
                         "__wab_instance",
                         sty.antdCollapsePanel__vnwKk
                       )}
+                      extra={null}
                       header={
                         <div
                           className={classNames(
@@ -5772,13 +5809,16 @@ function PlasmicOffer2__RenderFunc(props: {
                       "__wab_instance",
                       sty.antdCollapse__i7K73
                     )}
+                    closeIcon={null}
                     expandIconPosition={"right" as const}
+                    openIcon={null}
                   >
                     <CollapsePanel
                       className={classNames(
                         "__wab_instance",
                         sty.antdCollapsePanel__l4LwY
                       )}
+                      extra={null}
                       header={
                         <div
                           className={classNames(
