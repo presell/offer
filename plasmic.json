@@ -38,7 +38,8 @@
           "name": "Slider",
           "componentImportPath": "react-slick"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -209,7 +210,8 @@
           "name": "UploadWrapper",
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerUpload"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
@@ -388,7 +390,8 @@
           "name": "TableValue",
           "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -422,7 +425,8 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -441,7 +445,8 @@
           "name": "NavigationBar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "kmmGrmCVRJPgZ5NNJMDQ4v",
@@ -470,7 +475,8 @@
           "name": "WordpressProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
@@ -514,7 +520,8 @@
           "name": "CmsQueryRepeater",
           "componentImportPath": "@plasmicpkgs/plasmic-cms"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -538,7 +545,8 @@
           "name": "GraphqlFetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "9KCXRstMoFK73ynxesey2n",

@@ -3727,7 +3727,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 >
                   <React.Fragment>
                     <React.Fragment>
-                      {"\nVitamin Air Is The Only "}
+                      {"Vitamin Air Is The Only "}
                     </React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
@@ -3977,7 +3977,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__kcyb6
                   )}
                 >
-                  {"GET YOURS NOW "}
+                  {"GET YOURS NOW 👉"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -4346,6 +4346,24 @@ function PlasmicOffer2__RenderFunc(props: {
                     aspectRatio: undefined
                   }}
                 />
+
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fw7Ux
+                    )}
+                  >
+                    {
+                      "By trading in nic and harmful chemicals for extensively researched nutraceutical\ningredients, SPARQ® is imagining “the evolution of inhalation” where wellness is the\nultimate goal. Our patented device, Vitamin Air®, is sustainably designed to improve the\nlives of users through positive lifestyle changes and social interactions. Teaming up with\ntop scientific minds, SPARQ continues to research the realm of vitamin and herbal\nabsorption through the lungs. We spare no expense in our commitment to producing\nmeaningful and transformative innovations."
+                    }
+                  </div>
+                ) : null}
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__pjXx)}>
                 <div
@@ -4428,7 +4446,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__uzXF
                   )}
                 >
-                  {"GET YOURS NOW"}
+                  {"GET YOURS NOW 👉"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -4917,12 +4935,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__uwiw9)}
-                    displayHeight={"50px" as const}
+                    displayHeight={"40px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"50px" as const}
+                    displayWidth={"40px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fwebp.webp",
@@ -4961,12 +4979,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__kr3Np)}
-                    displayHeight={"50px" as const}
+                    displayHeight={"40px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"50px" as const}
+                    displayWidth={"40px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Avif.avif",
@@ -5005,12 +5023,12 @@ function PlasmicOffer2__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__ksIan)}
-                    displayHeight={"50px" as const}
+                    displayHeight={"40px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
                     displayMinWidth={"0" as const}
-                    displayWidth={"50px" as const}
+                    displayWidth={"40px" as const}
                     loading={"lazy" as const}
                     src={{
                       src: "/plasmic/offer_page/images/promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Avif.avif",
@@ -5091,7 +5109,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__u6Njr
                   )}
                 >
-                  {"GET YOURS NOW"}
+                  {"GET YOURS NOW 👉"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -5534,7 +5552,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__mwMKd
                   )}
                 >
-                  {"GET YOURS NOW"}
+                  {"GET YOURS NOW 👉"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -6176,7 +6194,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__jy0Vp
                     )}
                   >
-                    {"add to cart"}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -6439,7 +6457,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__clwJa
                     )}
                   >
-                    {"add to cart"}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -6646,7 +6664,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       sty.button__xx8NG
                     )}
                   >
-                    {"add to cart"}
+                    {"add to cart 👉"}
                   </button>
                   <p.PlasmicImg
                     alt={""}
@@ -10618,6 +10636,15 @@ function PlasmicOffer2__RenderFunc(props: {
               </p.Stack>
             </div>
           ) : null}
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__h0HAw
+            )}
+          >
+            {"1440px"}
+          </div>
         </div>
       </div>
     </React.Fragment>
