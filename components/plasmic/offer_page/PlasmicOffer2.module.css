@@ -4681,8 +4681,9 @@
   line-height: 22px;
   letter-spacing: 2px;
   padding-left: 0px;
-  max-width: 297px;
-  width: auto;
+  max-width: 262px;
+  width: 100%;
+  min-width: 0;
 }
 .text__p6WtH {
   position: relative;
