@@ -10709,15 +10709,6 @@ function PlasmicOffer2__RenderFunc(props: {
               </p.Stack>
             </div>
           ) : null}
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__h0HAw
-            )}
-          >
-            {"1440px"}
-          </div>
         </div>
       </div>
     </React.Fragment>
