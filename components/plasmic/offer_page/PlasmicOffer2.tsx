@@ -2957,689 +2957,762 @@ function PlasmicOffer2__RenderFunc(props: {
                   {"0% Nic / 100% Flavor / Lab-Tested / Vitamins / Recyclable"}
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.freeBox___9KwWv)}>
-                <div className={classNames(projectcss.all, sty.freeBox__pr0Ng)}>
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__aanTk)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vipEd
-                    )}
-                  >
-                    {"Most Popular"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__gxVg8
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"Starter Pack "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#E32D4F" }}
-                      >
-                        {"Save 20%"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__wl1Ny)}
-                    displayHeight={"170px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/_3Avif.avif",
-                      fullWidth: 278,
-                      fullHeight: 312,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ntjtG
-                    )}
-                  >
-                    {"Choose Flavor"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__iMoga)}
+                    className={classNames(projectcss.all, sty.freeBox___9KwWv)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__hOewb)}
+                      className={classNames(projectcss.all, sty.freeBox__pr0Ng)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__odVer
+                          sty.text__vipEd
                         )}
                       >
-                        {"Strawberry"}
+                        {"Most Popular"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__gxVg8
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{"Starter Pack "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#E32D4F" }}
+                          >
+                            {"Save 20%"}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__wl1Ny)}
+                        displayHeight={"170px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/_3Avif.avif",
+                          fullWidth: 278,
+                          fullHeight: 312,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ntjtG
+                        )}
+                      >
+                        {"Choose Flavor"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__iMoga
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__hOewb
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__odVer
+                            )}
+                          >
+                            {"Strawberry"}
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__zW9F8
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___5PWs4
+                            )}
+                          >
+                            {"Vanilla"}
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qmp6C
+                        )}
+                      >
+                        {"What’s included (3 Devices)"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__lrAt9
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__tt9W2)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__by6GR
+                          )}
+                        >
+                          {"1 Fuel Device (energy-enhancing)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__gJGi
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__yAewj)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ntZnr
+                          )}
+                        >
+                          {"1 Melt Device (metabolism-boosting)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__huNX
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__rw8Xw)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__zqhAr
+                          )}
+                        >
+                          {"1 Pure Device (age-defying)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yySh9
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{"For $60.00 "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#EDA418" }}
+                          >
+                            {"$48.00"}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <button
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.button,
+                          projectcss.__wab_text,
+                          sty.button__m4O7
+                        )}
+                      >
+                        {"add to cart 👉"}
+                      </button>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__j3S6)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"250px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/paymenticonspng.png",
+                          fullWidth: 442,
+                          fullHeight: 41,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__n2Vjd
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__qkxr)}
+                          displayHeight={"14px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"27px" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"27px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/freeshipavif.avif",
+                            fullWidth: 55,
+                            fullHeight: 30,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__levOh
+                          )}
+                        >
+                          {"FREE SHIPPING"}
+                        </div>
                       </div>
                     </div>
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__zW9F8)}
+                      className={classNames(projectcss.all, sty.freeBox__umzLf)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___5PWs4
+                          sty.text__orWzt
                         )}
                       >
-                        {"Vanilla"}
+                        {"Best Value"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__kNaLy
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{"Pro Pack "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#E32D4F" }}
+                          >
+                            {"Save 30%"}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__oPbq5)}
+                        displayHeight={"170px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/_6Webp.webp",
+                          fullWidth: 595,
+                          fullHeight: 324,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__izgIb
+                        )}
+                      >
+                        {"Includes both Flavors"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__dxQpi
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox___6Raze
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__fWnD
+                            )}
+                          >
+                            {"Strawberry"}
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__lLLxb
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__sgGjQ
+                            )}
+                          >
+                            {"Vanilla"}
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___4OXbf
+                        )}
+                      >
+                        {"What’s included (6 Devices)"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__hh3Cf
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img___08FU0)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__nKcOq
+                          )}
+                        >
+                          {"1 Fuel Device in each flavor (energy-enhancing)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___7RYw
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__rwB99)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__xYdw9
+                          )}
+                        >
+                          {"1 Melt Device in each flavor (metabolism-boosting)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__e1Shw
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__y39Qe)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___6YP4P
+                          )}
+                        >
+                          {"1 Pure Device in each flavor (age-defying)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sBcgb
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{"For $120.00 "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#EDA418" }}
+                          >
+                            {"$84.00"}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <button
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.button,
+                          projectcss.__wab_text,
+                          sty.button__vQtoB
+                        )}
+                      >
+                        {"add to cart 👉"}
+                      </button>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__crNuF)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"250px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/paymenticonspng.png",
+                          fullWidth: 442,
+                          fullHeight: 41,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__vb91L
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img___1Kh1J)}
+                          displayHeight={"14px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"27px" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"27px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/freeshipavif.avif",
+                            fullWidth: 55,
+                            fullHeight: 30,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__qms43
+                          )}
+                        >
+                          {"FREE SHIPPING"}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qmp6C
-                    )}
-                  >
-                    {"What’s included (3 Devices)"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__lrAt9)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__tt9W2)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__by6GR
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__odqH)}
                     >
-                      {"1 Fuel Device (energy-enhancing)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__gJGi)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__yAewj)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ntZnr
-                      )}
-                    >
-                      {"1 Melt Device (metabolism-boosting)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__huNX)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__rw8Xw)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__zqhAr
-                      )}
-                    >
-                      {"1 Pure Device (age-defying)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yySh9
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"For $60.00 "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#EDA418" }}
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__x5BOj
+                        )}
                       >
-                        {"$48.00"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <button
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.button__m4O7
-                    )}
-                  >
-                    {"add to cart 👉"}
-                  </button>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__j3S6)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"250px" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/paymenticonspng.png",
-                      fullWidth: 442,
-                      fullHeight: 41,
-                      aspectRatio: undefined
-                    }}
-                  />
+                        {"Single"}
+                      </div>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__g86Tn)}
+                        displayHeight={"170px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/getyourvitamin1Avif.avif",
+                          fullWidth: 85,
+                          fullHeight: 307,
+                          aspectRatio: undefined
+                        }}
+                      />
 
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__n2Vjd)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__qkxr)}
-                      displayHeight={"14px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"27px" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"27px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/freeshipavif.avif",
-                        fullWidth: 55,
-                        fullHeight: 30,
-                        aspectRatio: undefined
-                      }}
-                    />
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__lAxl2
+                        )}
+                      >
+                        {"Choose Flavor"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___5Oq0A
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__ydz9
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__qzxIf
+                            )}
+                          >
+                            {"Strawberry"}
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__afU26
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___4V9Z
+                            )}
+                          >
+                            {"Vanilla"}
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ydMfL
+                        )}
+                      >
+                        {"What’s included (1 Device)"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___6G9Bj
+                        )}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__jQxp1)}
+                          displayHeight={"15px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"15px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
 
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__levOh
-                      )}
-                    >
-                      {"FREE SHIPPING"}
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__opQd5
+                          )}
+                        >
+                          {"Fuel Device (energy-enhancing)"}
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__raOh0
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{"For "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#EDA418" }}
+                          >
+                            {"$20.00"}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <button
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.button,
+                          projectcss.__wab_text,
+                          sty.button__s6Wd
+                        )}
+                      >
+                        {"add to cart 👉"}
+                      </button>
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___3H4Vb)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"250px" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/offer_page/images/paymenticonspng.png",
+                          fullWidth: 442,
+                          fullHeight: 41,
+                          aspectRatio: undefined
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
-                <div className={classNames(projectcss.all, sty.freeBox__umzLf)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__orWzt
-                    )}
-                  >
-                    {"Best Value"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__kNaLy
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"Pro Pack "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#E32D4F" }}
-                      >
-                        {"Save 30%"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__oPbq5)}
-                    displayHeight={"170px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/_6Webp.webp",
-                      fullWidth: 595,
-                      fullHeight: 324,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__izgIb
-                    )}
-                  >
-                    {"Includes both Flavors"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__dxQpi)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___6Raze
-                      )}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__fWnD
-                        )}
-                      >
-                        {"Strawberry"}
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__lLLxb)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__sgGjQ
-                        )}
-                      >
-                        {"Vanilla"}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___4OXbf
-                    )}
-                  >
-                    {"What’s included (6 Devices)"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__hh3Cf)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___08FU0)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__nKcOq
-                      )}
-                    >
-                      {"1 Fuel Device in each flavor (energy-enhancing)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___7RYw)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__rwB99)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__xYdw9
-                      )}
-                    >
-                      {"1 Melt Device in each flavor (metabolism-boosting)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__e1Shw)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__y39Qe)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___6YP4P
-                      )}
-                    >
-                      {"1 Pure Device in each flavor (age-defying)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__sBcgb
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"For $120.00 "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#EDA418" }}
-                      >
-                        {"$84.00"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <button
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.button__vQtoB
-                    )}
-                  >
-                    {"add to cart 👉"}
-                  </button>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__crNuF)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"250px" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/paymenticonspng.png",
-                      fullWidth: 442,
-                      fullHeight: 41,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__vb91L)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___1Kh1J)}
-                      displayHeight={"14px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"27px" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"27px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/freeshipavif.avif",
-                        fullWidth: 55,
-                        fullHeight: 30,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__qms43
-                      )}
-                    >
-                      {"FREE SHIPPING"}
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__odqH)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__x5BOj
-                    )}
-                  >
-                    {"Single"}
-                  </div>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__g86Tn)}
-                    displayHeight={"170px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/getyourvitamin1Avif.avif",
-                      fullWidth: 85,
-                      fullHeight: 307,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lAxl2
-                    )}
-                  >
-                    {"Choose Flavor"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___5Oq0A)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__ydz9)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qzxIf
-                        )}
-                      >
-                        {"Strawberry"}
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__afU26)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___4V9Z
-                        )}
-                      >
-                        {"Vanilla"}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ydMfL
-                    )}
-                  >
-                    {"What’s included (1 Device)"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___6G9Bj)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__jQxp1)}
-                      displayHeight={"15px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"15px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/offer_page/images/li3.png",
-                        fullWidth: 44,
-                        fullHeight: 32,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__opQd5
-                      )}
-                    >
-                      {"Fuel Device (energy-enhancing)"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__raOh0
-                    )}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"For "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#EDA418" }}
-                      >
-                        {"$20.00"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <button
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.button__s6Wd
-                    )}
-                  >
-                    {"add to cart 👉"}
-                  </button>
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___3H4Vb)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"250px" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"100%" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/offer_page/images/paymenticonspng.png",
-                      fullWidth: 442,
-                      fullHeight: 41,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </div>
+              ) : null}
             </div>
           ) : null}
           {(
