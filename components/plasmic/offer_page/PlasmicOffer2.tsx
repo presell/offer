@@ -2145,37 +2145,52 @@ function PlasmicOffer2__RenderFunc(props: {
                         <p.PlasmicImg
                           alt={""}
                           className={classNames(sty.img__xMr1Y)}
-                          displayHeight={"auto" as const}
+                          displayHeight={"220px" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
                           displayWidth={"auto" as const}
-                          src={"" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/_1File6211298211357HongKongjpg.jpg",
+                            fullWidth: 1920,
+                            fullHeight: 1440,
+                            aspectRatio: undefined
+                          }}
                         />
 
                         <p.PlasmicImg
                           alt={""}
                           className={classNames(sty.img__tDyGr)}
-                          displayHeight={"auto" as const}
+                          displayHeight={"220px" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
                           displayWidth={"auto" as const}
-                          src={"" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/_1B47C24Ead8B3Efc82Ba6437D4E8B239DMorguefileDenmarkjpg.jpg",
+                            fullWidth: 1920,
+                            fullHeight: 1280,
+                            aspectRatio: undefined
+                          }}
                         />
 
                         <p.PlasmicImg
                           alt={""}
                           className={classNames(sty.img__iwAwb)}
-                          displayHeight={"auto" as const}
+                          displayHeight={"220px" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"auto" as const}
-                          src={"" as const}
+                          displayWidth={"236px" as const}
+                          src={{
+                            src: "/plasmic/offer_page/images/arabicUnitedArabEmiratesDubai9627851920Jpg.jpg",
+                            fullWidth: 1920,
+                            fullHeight: 1042,
+                            aspectRatio: undefined
+                          }}
                         />
                       </Slider>
                     ) : null}
