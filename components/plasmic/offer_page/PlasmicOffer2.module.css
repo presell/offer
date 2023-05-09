@@ -2128,6 +2128,7 @@
   min-width: 0;
 }
 .freeBox__ocTjp {
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -2136,7 +2137,6 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  display: none;
   padding: 8px;
 }
 .antdCollapse__rchKu:global(.__wab_instance) {
@@ -2144,12 +2144,13 @@
   object-fit: cover;
   position: relative;
   background: #f4f4ed;
-  width: 500px;
+  width: 800px;
   margin-top: 20px;
 }
 .antdCollapsePanel__mitm1:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
+  width: auto;
 }
 .text__wGqQm {
   position: relative;
@@ -2178,7 +2179,7 @@
   object-fit: cover;
   position: relative;
   background: #f4f4ed;
-  width: 500px;
+  width: 800px;
   margin-top: 20px;
 }
 .antdCollapsePanel__knMvm:global(.__wab_instance) {
@@ -2210,7 +2211,7 @@
   max-width: 100%;
   object-fit: cover;
   position: relative;
-  width: 500px;
+  width: 800px;
   background: #f4f4ed;
   margin-top: 20px;
 }
@@ -2242,7 +2243,7 @@
   max-width: 100%;
   object-fit: cover;
   position: relative;
-  width: 500px;
+  width: 800px;
   background: #f4f4ed;
   margin-top: 20px;
 }
@@ -2272,7 +2273,7 @@
   max-width: 100%;
   object-fit: cover;
   position: relative;
-  width: 500px;
+  width: 800px;
   background: #f4f4ed;
   margin-top: 20px;
 }
